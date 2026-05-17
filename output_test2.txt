@@ -1,0 +1,1753 @@
+Enter frame size bits (n): Enter total frame count:     [Load Page] Page 16 -> Frame0
+(LA) 16916 -> (PA) 532: 0
+    [Load Page] Page 61 -> Frame1
+(LA) 62493 -> (PA) 1053: 0
+    [Load Page] Page 29 -> Frame2
+(LA) 30198 -> (PA) 2550: 29
+    [Load Page] Page 52 -> Frame3
+(LA) 53683 -> (PA) 3507: 108
+    [Load Page] Page 39 -> Frame4
+(LA) 40185 -> (PA) 4345: 0
+    [Load Page] Page 28 -> Frame5
+(LA) 28781 -> (PA) 5229: 0
+    [Load Page] Page 23 -> Frame6
+(LA) 24462 -> (PA) 7054: 23
+    [Load Page] Page 47 -> Frame7
+(LA) 48399 -> (PA) 7439: 67
+    [Load Page] Page 63 -> Frame8
+(LA) 64815 -> (PA) 8495: 75
+    [Load Page] Page 17 -> Frame9
+(LA) 18295 -> (PA) 10103: 221
+    [Load Page] Page 11 -> Frame10
+(LA) 12218 -> (PA) 11194: 11
+    [Load Page] Page 22 -> Frame11
+(LA) 22760 -> (PA) 11496: 0
+    [Load Page] Page 56 -> Frame12
+(LA) 57982 -> (PA) 12926: 56
+    [Load Page] Page 27 -> Frame13
+(LA) 27966 -> (PA) 13630: 27
+    [Load Page] Page 53 -> Frame14
+(LA) 54894 -> (PA) 14958: 53
+    [Load Page] Page 38 -> Frame15
+(LA) 38929 -> (PA) 15377: 0
+    [Replace page] Frame0: Page 16 -> Page 32
+(LA) 32865 -> (PA) 97: 0
+    [Replace page] Frame1: Page 61 -> Page 62
+(LA) 64243 -> (PA) 1779: 188
+    [Replace page] Frame2: Page 29 -> Page 2
+(LA) 2315 -> (PA) 2315: 66
+[Page Table] (LA) 64454 -> (PA) 1990: 62
+[Page Table] (LA) 55041 -> (PA) 15105: 0
+    [Replace page] Frame3: Page 52 -> Page 18
+(LA) 18633 -> (PA) 3273: 0
+    [Replace page] Frame4: Page 39 -> Page 14
+(LA) 14557 -> (PA) 4317: 0
+    [Replace page] Frame5: Page 28 -> Page 59
+(LA) 61006 -> (PA) 5710: 59
+    [Replace page] Frame6: Page 23 -> Page 61
+(LA) 62615 -> (PA) 6295: 37
+    [Replace page] Frame7: Page 47 -> Page 7
+(LA) 7591 -> (PA) 7591: 105
+[Page Table] (LA) 64747 -> (PA) 8427: 58
+    [Replace page] Frame9: Page 17 -> Page 6
+(LA) 6727 -> (PA) 9799: 145
+    [Replace page] Frame10: Page 11 -> Page 31
+(LA) 32315 -> (PA) 10811: 142
+[Page Table] (LA) 60645 -> (PA) 5349: 0
+[Page Table] (LA) 6308 -> (PA) 9380: 0
+    [Replace page] Frame11: Page 22 -> Page 44
+(LA) 45688 -> (PA) 11896: 0
+    [Replace page] Frame12: Page 56 -> Page 0
+(LA) 969 -> (PA) 13257: 0
+    [Replace page] Frame13: Page 27 -> Page 39
+(LA) 40891 -> (PA) 14267: 238
+    [Replace page] Frame15: Page 38 -> Page 48
+(LA) 49294 -> (PA) 15502: 48
+    [Replace page] Frame0: Page 32 -> Page 40
+(LA) 41118 -> (PA) 158: 40
+    [Replace page] Frame2: Page 2 -> Page 20
+(LA) 21395 -> (PA) 2963: 228
+    [Replace page] Frame1: Page 62 -> Page 5
+(LA) 6091 -> (PA) 1995: 242
+[Page Table] (LA) 32541 -> (PA) 11037: 0
+    [Replace page] Frame14: Page 53 -> Page 17
+(LA) 17665 -> (PA) 14593: 0
+    [Replace page] Frame3: Page 18 -> Page 3
+(LA) 3784 -> (PA) 3784: 0
+    [Replace page] Frame4: Page 14 -> Page 28
+(LA) 28718 -> (PA) 4142: 28
+    [Replace page] Frame6: Page 61 -> Page 57
+(LA) 59240 -> (PA) 7016: 0
+[Page Table] (LA) 40178 -> (PA) 13554: 39
+    [Replace page] Frame7: Page 7 -> Page 58
+(LA) 60086 -> (PA) 7862: 58
+    [Replace page] Frame8: Page 63 -> Page 41
+(LA) 42252 -> (PA) 8460: 0
+    [Replace page] Frame5: Page 59 -> Page 43
+(LA) 44770 -> (PA) 5858: 43
+    [Replace page] Frame9: Page 6 -> Page 21
+(LA) 22514 -> (PA) 10226: 21
+    [Replace page] Frame11: Page 44 -> Page 2
+(LA) 3067 -> (PA) 12283: 254
+    [Replace page] Frame12: Page 0 -> Page 15
+(LA) 15757 -> (PA) 12685: 0
+    [Replace page] Frame15: Page 48 -> Page 30
+(LA) 31649 -> (PA) 16289: 0
+    [Replace page] Frame0: Page 40 -> Page 10
+(LA) 10842 -> (PA) 602: 10
+    [Replace page] Frame2: Page 20 -> Page 42
+(LA) 43765 -> (PA) 2805: 0
+    [Replace page] Frame1: Page 5 -> Page 32
+(LA) 33405 -> (PA) 1661: 0
+[Page Table] (LA) 44954 -> (PA) 6042: 43
+    [Replace page] Frame10: Page 31 -> Page 55
+(LA) 56657 -> (PA) 10577: 0
+    [Replace page] Frame14: Page 17 -> Page 4
+(LA) 5003 -> (PA) 15243: 226
+    [Replace page] Frame3: Page 3 -> Page 49
+(LA) 50227 -> (PA) 3123: 12
+    [Replace page] Frame4: Page 28 -> Page 18
+(LA) 19358 -> (PA) 5022: 18
+    [Replace page] Frame6: Page 57 -> Page 35
+(LA) 36529 -> (PA) 6833: 0
+[Page Table] (LA) 10392 -> (PA) 152: 0
+    [Replace page] Frame13: Page 39 -> Page 57
+(LA) 58882 -> (PA) 13826: 57
+    [Replace page] Frame7: Page 58 -> Page 5
+(LA) 5129 -> (PA) 7177: 0
+[Page Table] (LA) 58554 -> (PA) 13498: 57
+[Page Table] (LA) 58584 -> (PA) 13528: 0
+    [Replace page] Frame8: Page 41 -> Page 26
+(LA) 27444 -> (PA) 9012: 0
+[Page Table] (LA) 58982 -> (PA) 13926: 57
+    [Replace page] Frame9: Page 21 -> Page 50
+(LA) 51476 -> (PA) 9492: 0
+    [Replace page] Frame11: Page 2 -> Page 6
+(LA) 6796 -> (PA) 11916: 0
+    [Replace page] Frame12: Page 15 -> Page 20
+(LA) 21311 -> (PA) 13119: 207
+    [Replace page] Frame15: Page 30 -> Page 29
+(LA) 30705 -> (PA) 16369: 0
+    [Replace page] Frame2: Page 42 -> Page 28
+(LA) 28964 -> (PA) 2340: 0
+    [Replace page] Frame1: Page 32 -> Page 40
+(LA) 41003 -> (PA) 1067: 10
+    [Replace page] Frame5: Page 43 -> Page 19
+(LA) 20259 -> (PA) 5923: 200
+    [Replace page] Frame10: Page 55 -> Page 56
+(LA) 57857 -> (PA) 10753: 0
+    [Replace page] Frame14: Page 4 -> Page 61
+(LA) 63258 -> (PA) 15130: 61
+[Page Table] (LA) 36374 -> (PA) 6678: 35
+    [Replace page] Frame3: Page 49 -> Page 0
+(LA) 692 -> (PA) 3764: 0
+    [Replace page] Frame4: Page 18 -> Page 42
+(LA) 43121 -> (PA) 4209: 0
+    [Replace page] Frame0: Page 10 -> Page 47
+(LA) 48128 -> (PA) 0: 0
+    [Replace page] Frame7: Page 5 -> Page 33
+(LA) 34561 -> (PA) 7937: 0
+    [Replace page] Frame8: Page 26 -> Page 48
+(LA) 49213 -> (PA) 8253: 0
+    [Replace page] Frame13: Page 57 -> Page 36
+(LA) 36922 -> (PA) 13370: 36
+    [Replace page] Frame9: Page 50 -> Page 57
+(LA) 59162 -> (PA) 10010: 57
+    [Replace page] Frame11: Page 6 -> Page 49
+(LA) 50552 -> (PA) 11640: 0
+    [Replace page] Frame12: Page 20 -> Page 17
+(LA) 17866 -> (PA) 12746: 17
+[Page Table] (LA) 18145 -> (PA) 13025: 0
+    [Replace page] Frame15: Page 29 -> Page 3
+(LA) 3884 -> (PA) 16172: 0
+    [Replace page] Frame2: Page 28 -> Page 53
+(LA) 54388 -> (PA) 2164: 0
+    [Replace page] Frame1: Page 40 -> Page 41
+(LA) 42932 -> (PA) 1972: 0
+    [Replace page] Frame5: Page 19 -> Page 45
+(LA) 46919 -> (PA) 5959: 209
+[Page Table] (LA) 58892 -> (PA) 9740: 0
+    [Replace page] Frame10: Page 56 -> Page 8
+(LA) 8620 -> (PA) 10668: 0
+    [Replace page] Frame14: Page 61 -> Page 37
+(LA) 38336 -> (PA) 14784: 0
+    [Replace page] Frame6: Page 35 -> Page 62
+(LA) 64357 -> (PA) 7013: 0
+    [Replace page] Frame3: Page 0 -> Page 22
+(LA) 23387 -> (PA) 3931: 214
+[Page Table] (LA) 42632 -> (PA) 1672: 0
+    [Replace page] Frame4: Page 42 -> Page 15
+(LA) 15913 -> (PA) 4649: 0
+[Page Table] (LA) 15679 -> (PA) 4415: 79
+    [Replace page] Frame0: Page 47 -> Page 21
+(LA) 22501 -> (PA) 997: 0
+[Page Table] (LA) 37540 -> (PA) 13988: 0
+    [Replace page] Frame7: Page 33 -> Page 5
+(LA) 5527 -> (PA) 7575: 101
+[Page Table] (LA) 63921 -> (PA) 6577: 0
+    [Replace page] Frame8: Page 48 -> Page 61
+(LA) 62716 -> (PA) 8444: 0
+    [Replace page] Frame11: Page 49 -> Page 32
+(LA) 32874 -> (PA) 11370: 32
+[Page Table] (LA) 64390 -> (PA) 7046: 62
+[Page Table] (LA) 63101 -> (PA) 8829: 0
+    [Replace page] Frame12: Page 17 -> Page 60
+(LA) 61802 -> (PA) 12650: 60
+    [Replace page] Frame15: Page 3 -> Page 19
+(LA) 19648 -> (PA) 15552: 0
+    [Replace page] Frame2: Page 53 -> Page 28
+(LA) 29031 -> (PA) 2407: 89
+    [Replace page] Frame5: Page 45 -> Page 43
+(LA) 44981 -> (PA) 6069: 0
+    [Replace page] Frame9: Page 57 -> Page 27
+(LA) 28092 -> (PA) 9660: 0
+    [Replace page] Frame10: Page 8 -> Page 9
+(LA) 9448 -> (PA) 10472: 0
+[Page Table] (LA) 44744 -> (PA) 5832: 0
+[Page Table] (LA) 61496 -> (PA) 12344: 0
+    [Replace page] Frame14: Page 37 -> Page 30
+(LA) 31453 -> (PA) 15069: 0
+    [Replace page] Frame3: Page 22 -> Page 59
+(LA) 60746 -> (PA) 3402: 59
+    [Replace page] Frame1: Page 41 -> Page 11
+(LA) 12199 -> (PA) 1959: 233
+[Page Table] (LA) 62255 -> (PA) 13103: 203
+[Page Table] (LA) 21793 -> (PA) 289: 0
+    [Replace page] Frame4: Page 15 -> Page 25
+(LA) 26544 -> (PA) 5040: 0
+    [Replace page] Frame13: Page 36 -> Page 14
+(LA) 14964 -> (PA) 13940: 0
+    [Replace page] Frame7: Page 5 -> Page 40
+(LA) 41462 -> (PA) 7670: 40
+    [Replace page] Frame11: Page 32 -> Page 54
+(LA) 56089 -> (PA) 12057: 0
+    [Replace page] Frame6: Page 62 -> Page 50
+(LA) 52038 -> (PA) 6982: 50
+    [Replace page] Frame8: Page 61 -> Page 46
+(LA) 47982 -> (PA) 9070: 46
+    [Replace page] Frame15: Page 19 -> Page 58
+(LA) 59484 -> (PA) 15452: 0
+    [Replace page] Frame2: Page 28 -> Page 49
+(LA) 50924 -> (PA) 2796: 0
+    [Replace page] Frame9: Page 27 -> Page 6
+(LA) 6942 -> (PA) 10014: 6
+    [Replace page] Frame10: Page 9 -> Page 34
+(LA) 34998 -> (PA) 10422: 34
+    [Replace page] Frame5: Page 43 -> Page 26
+(LA) 27069 -> (PA) 5565: 0
+[Page Table] (LA) 51926 -> (PA) 6870: 50
+[Page Table] (LA) 60645 -> (PA) 3301: 0
+    [Replace page] Frame14: Page 30 -> Page 42
+(LA) 43181 -> (PA) 14509: 0
+    [Replace page] Frame1: Page 11 -> Page 10
+(LA) 10559 -> (PA) 1343: 79
+    [Replace page] Frame12: Page 60 -> Page 4
+(LA) 4664 -> (PA) 12856: 0
+    [Replace page] Frame0: Page 21 -> Page 27
+(LA) 28578 -> (PA) 930: 27
+[Page Table] (LA) 59516 -> (PA) 15484: 0
+    [Replace page] Frame4: Page 25 -> Page 38
+(LA) 38912 -> (PA) 4096: 0
+    [Replace page] Frame13: Page 14 -> Page 62
+(LA) 63562 -> (PA) 13386: 62
+    [Replace page] Frame7: Page 40 -> Page 63
+(LA) 64846 -> (PA) 7502: 63
+    [Replace page] Frame11: Page 54 -> Page 61
+(LA) 62938 -> (PA) 11738: 61
+[Page Table] (LA) 27194 -> (PA) 5690: 26
+    [Replace page] Frame8: Page 46 -> Page 28
+(LA) 28804 -> (PA) 8324: 0
+    [Replace page] Frame2: Page 49 -> Page 60
+(LA) 61703 -> (PA) 2311: 65
+[Page Table] (LA) 10998 -> (PA) 1782: 10
+[Page Table] (LA) 6596 -> (PA) 9668: 0
+    [Replace page] Frame10: Page 34 -> Page 36
+(LA) 37721 -> (PA) 11097: 0
+[Page Table] (LA) 43430 -> (PA) 14758: 42
+    [Replace page] Frame6: Page 50 -> Page 22
+(LA) 22692 -> (PA) 6308: 0
+[Page Table] (LA) 62971 -> (PA) 11771: 126
+    [Replace page] Frame3: Page 59 -> Page 46
+(LA) 47125 -> (PA) 3093: 0
+    [Replace page] Frame12: Page 4 -> Page 51
+(LA) 52521 -> (PA) 12585: 0
+    [Replace page] Frame0: Page 27 -> Page 33
+(LA) 34646 -> (PA) 854: 33
+    [Replace page] Frame15: Page 58 -> Page 32
+(LA) 32889 -> (PA) 15481: 0
+    [Replace page] Frame4: Page 38 -> Page 12
+(LA) 13055 -> (PA) 4863: 191
+[Page Table] (LA) 65416 -> (PA) 8072: 0
+[Page Table] (LA) 62869 -> (PA) 11669: 0
+    [Replace page] Frame13: Page 62 -> Page 55
+(LA) 57314 -> (PA) 14306: 55
+[Page Table] (LA) 12659 -> (PA) 4467: 92
+    [Replace page] Frame5: Page 26 -> Page 13
+(LA) 14052 -> (PA) 5860: 0
+[Page Table] (LA) 32956 -> (PA) 15548: 0
+    [Replace page] Frame8: Page 28 -> Page 48
+(LA) 49273 -> (PA) 8313: 0
+    [Replace page] Frame2: Page 60 -> Page 49
+(LA) 50352 -> (PA) 2224: 0
+[Page Table] (LA) 49737 -> (PA) 8777: 0
+    [Replace page] Frame1: Page 10 -> Page 15
+(LA) 15555 -> (PA) 1219: 48
+[Page Table] (LA) 47475 -> (PA) 3443: 92
+    [Replace page] Frame9: Page 6 -> Page 14
+(LA) 15328 -> (PA) 10208: 0
+[Page Table] (LA) 34621 -> (PA) 829: 0
+    [Replace page] Frame10: Page 36 -> Page 50
+(LA) 51365 -> (PA) 10405: 0
+[Page Table] (LA) 32820 -> (PA) 15412: 0
+    [Replace page] Frame14: Page 42 -> Page 47
+(LA) 48855 -> (PA) 15063: 181
+    [Replace page] Frame6: Page 22 -> Page 11
+(LA) 12224 -> (PA) 7104: 0
+    [Replace page] Frame12: Page 51 -> Page 1
+(LA) 2035 -> (PA) 13299: 252
+    [Replace page] Frame7: Page 63 -> Page 59
+(LA) 60539 -> (PA) 7291: 30
+[Page Table] (LA) 14595 -> (PA) 9475: 64
+[Page Table] (LA) 13853 -> (PA) 5661: 0
+    [Replace page] Frame11: Page 61 -> Page 23
+(LA) 24143 -> (PA) 11855: 147
+[Page Table] (LA) 15216 -> (PA) 10096: 0
+    [Replace page] Frame13: Page 55 -> Page 7
+(LA) 8113 -> (PA) 14257: 0
+    [Replace page] Frame4: Page 12 -> Page 22
+(LA) 22640 -> (PA) 4208: 0
+[Page Table] (LA) 32978 -> (PA) 15570: 32
+    [Replace page] Frame2: Page 49 -> Page 38
+(LA) 39151 -> (PA) 2287: 59
+    [Replace page] Frame8: Page 48 -> Page 19
+(LA) 19520 -> (PA) 8256: 0
+    [Replace page] Frame1: Page 15 -> Page 56
+(LA) 58141 -> (PA) 1821: 0
+    [Replace page] Frame3: Page 46 -> Page 62
+(LA) 63959 -> (PA) 3543: 117
+    [Replace page] Frame0: Page 33 -> Page 51
+(LA) 53040 -> (PA) 816: 0
+    [Replace page] Frame10: Page 50 -> Page 54
+(LA) 55842 -> (PA) 10786: 54
+    [Replace page] Frame14: Page 47 -> Page 0
+(LA) 585 -> (PA) 14921: 0
+    [Replace page] Frame6: Page 11 -> Page 50
+(LA) 51229 -> (PA) 6173: 0
+[Page Table] (LA) 64181 -> (PA) 3765: 0
+    [Replace page] Frame12: Page 1 -> Page 53
+(LA) 54879 -> (PA) 12895: 151
+    [Replace page] Frame7: Page 59 -> Page 27
+(LA) 28210 -> (PA) 7730: 27
+    [Replace page] Frame5: Page 13 -> Page 10
+(LA) 10268 -> (PA) 5148: 0
+    [Replace page] Frame11: Page 23 -> Page 15
+(LA) 15395 -> (PA) 11299: 8
+    [Replace page] Frame9: Page 14 -> Page 12
+(LA) 12884 -> (PA) 9812: 0
+    [Replace page] Frame13: Page 7 -> Page 2
+(LA) 2149 -> (PA) 13413: 0
+    [Replace page] Frame4: Page 22 -> Page 52
+(LA) 53483 -> (PA) 4331: 58
+    [Replace page] Frame15: Page 32 -> Page 58
+(LA) 59606 -> (PA) 15574: 58
+    [Replace page] Frame2: Page 38 -> Page 14
+(LA) 14981 -> (PA) 2693: 0
+    [Replace page] Frame8: Page 19 -> Page 35
+(LA) 36672 -> (PA) 9024: 0
+    [Replace page] Frame1: Page 56 -> Page 22
+(LA) 23197 -> (PA) 1693: 0
+[Page Table] (LA) 36518 -> (PA) 8870: 35
+    [Replace page] Frame0: Page 51 -> Page 13
+(LA) 13361 -> (PA) 49: 0
+    [Replace page] Frame10: Page 54 -> Page 19
+(LA) 19810 -> (PA) 10594: 19
+    [Replace page] Frame14: Page 0 -> Page 25
+(LA) 25955 -> (PA) 14691: 88
+    [Replace page] Frame6: Page 50 -> Page 61
+(LA) 62678 -> (PA) 6358: 61
+[Page Table] (LA) 26021 -> (PA) 14757: 0
+    [Replace page] Frame3: Page 62 -> Page 28
+(LA) 29409 -> (PA) 3809: 0
+    [Replace page] Frame12: Page 53 -> Page 37
+(LA) 38111 -> (PA) 12511: 55
+    [Replace page] Frame7: Page 27 -> Page 57
+(LA) 58573 -> (PA) 7373: 0
+    [Replace page] Frame5: Page 10 -> Page 55
+(LA) 56840 -> (PA) 5640: 0
+    [Replace page] Frame11: Page 15 -> Page 40
+(LA) 41306 -> (PA) 11610: 40
+    [Replace page] Frame9: Page 12 -> Page 53
+(LA) 54426 -> (PA) 9370: 53
+    [Replace page] Frame13: Page 2 -> Page 3
+(LA) 3617 -> (PA) 13857: 0
+    [Replace page] Frame4: Page 52 -> Page 49
+(LA) 50652 -> (PA) 4572: 0
+[Page Table] (LA) 41452 -> (PA) 11756: 0
+[Page Table] (LA) 20241 -> (PA) 11025: 0
+    [Replace page] Frame15: Page 58 -> Page 30
+(LA) 31723 -> (PA) 16363: 250
+    [Replace page] Frame2: Page 14 -> Page 52
+(LA) 53747 -> (PA) 2547: 124
+    [Replace page] Frame1: Page 22 -> Page 27
+(LA) 28550 -> (PA) 1926: 27
+    [Replace page] Frame8: Page 35 -> Page 22
+(LA) 23402 -> (PA) 9066: 22
+    [Replace page] Frame0: Page 13 -> Page 20
+(LA) 21205 -> (PA) 725: 0
+    [Replace page] Frame6: Page 61 -> Page 54
+(LA) 56181 -> (PA) 7029: 0
+    [Replace page] Frame14: Page 25 -> Page 56
+(LA) 57470 -> (PA) 14462: 56
+    [Replace page] Frame3: Page 28 -> Page 38
+(LA) 39933 -> (PA) 4093: 0
+    [Replace page] Frame12: Page 37 -> Page 34
+(LA) 34964 -> (PA) 12436: 0
+    [Replace page] Frame7: Page 57 -> Page 24
+(LA) 24781 -> (PA) 7373: 0
+[Page Table] (LA) 41747 -> (PA) 12051: 196
+    [Replace page] Frame5: Page 55 -> Page 61
+(LA) 62564 -> (PA) 5220: 0
+    [Replace page] Frame9: Page 53 -> Page 57
+(LA) 58461 -> (PA) 9309: 0
+[Page Table] (LA) 20858 -> (PA) 378: 20
+    [Replace page] Frame13: Page 3 -> Page 48
+(LA) 49301 -> (PA) 13461: 0
+    [Replace page] Frame4: Page 49 -> Page 39
+(LA) 40572 -> (PA) 4732: 0
+    [Replace page] Frame10: Page 19 -> Page 23
+(LA) 23840 -> (PA) 10528: 0
+[Page Table] (LA) 35278 -> (PA) 12750: 34
+[Page Table] (LA) 62905 -> (PA) 5561: 0
+    [Replace page] Frame15: Page 30 -> Page 55
+(LA) 56650 -> (PA) 15690: 55
+    [Replace page] Frame2: Page 52 -> Page 10
+(LA) 11149 -> (PA) 2957: 0
+[Page Table] (LA) 38920 -> (PA) 3080: 0
+[Page Table] (LA) 23430 -> (PA) 9094: 22
+[Page Table] (LA) 57592 -> (PA) 14584: 0
+    [Replace page] Frame1: Page 27 -> Page 3
+(LA) 3080 -> (PA) 1032: 0
+    [Replace page] Frame6: Page 54 -> Page 6
+(LA) 6677 -> (PA) 6677: 0
+    [Replace page] Frame7: Page 24 -> Page 49
+(LA) 50704 -> (PA) 7696: 0
+    [Replace page] Frame11: Page 40 -> Page 50
+(LA) 51883 -> (PA) 11947: 170
+[Page Table] (LA) 62799 -> (PA) 5455: 83
+    [Replace page] Frame9: Page 57 -> Page 19
+(LA) 20188 -> (PA) 9948: 0
+    [Replace page] Frame0: Page 20 -> Page 1
+(LA) 1245 -> (PA) 221: 0
+    [Replace page] Frame13: Page 48 -> Page 11
+(LA) 12220 -> (PA) 14268: 0
+    [Replace page] Frame4: Page 39 -> Page 17
+(LA) 17602 -> (PA) 4290: 17
+    [Replace page] Frame10: Page 23 -> Page 27
+(LA) 28609 -> (PA) 11201: 0
+    [Replace page] Frame12: Page 34 -> Page 41
+(LA) 42694 -> (PA) 12998: 41
+    [Replace page] Frame15: Page 55 -> Page 29
+(LA) 29826 -> (PA) 15490: 29
+    [Replace page] Frame2: Page 10 -> Page 13
+(LA) 13827 -> (PA) 2563: 128
+    [Replace page] Frame3: Page 38 -> Page 26
+(LA) 27336 -> (PA) 3784: 0
+    [Replace page] Frame8: Page 22 -> Page 52
+(LA) 53343 -> (PA) 8287: 23
+[Page Table] (LA) 11533 -> (PA) 13581: 0
+    [Replace page] Frame14: Page 56 -> Page 40
+(LA) 41713 -> (PA) 15089: 0
+    [Replace page] Frame1: Page 3 -> Page 33
+(LA) 33890 -> (PA) 1122: 33
+    [Replace page] Frame6: Page 6 -> Page 4
+(LA) 4894 -> (PA) 6942: 4
+    [Replace page] Frame7: Page 49 -> Page 56
+(LA) 57599 -> (PA) 7423: 63
+    [Replace page] Frame11: Page 50 -> Page 3
+(LA) 3870 -> (PA) 12062: 3
+    [Replace page] Frame5: Page 61 -> Page 57
+(LA) 58622 -> (PA) 5374: 57
+[Page Table] (LA) 29780 -> (PA) 15444: 0
+    [Replace page] Frame9: Page 19 -> Page 61
+(LA) 62553 -> (PA) 9305: 0
+    [Replace page] Frame0: Page 1 -> Page 2
+(LA) 2303 -> (PA) 255: 63
+    [Replace page] Frame4: Page 17 -> Page 50
+(LA) 51915 -> (PA) 4811: 178
+    [Replace page] Frame10: Page 27 -> Page 6
+(LA) 6251 -> (PA) 10347: 26
+    [Replace page] Frame12: Page 41 -> Page 37
+(LA) 38107 -> (PA) 12507: 54
+[Page Table] (LA) 59325 -> (PA) 6077: 0
+    [Replace page] Frame2: Page 13 -> Page 59
+(LA) 61295 -> (PA) 2927: 219
+[Page Table] (LA) 26699 -> (PA) 3147: 18
+    [Replace page] Frame8: Page 52 -> Page 49
+(LA) 51188 -> (PA) 9204: 0
+    [Replace page] Frame13: Page 11 -> Page 58
+(LA) 59519 -> (PA) 13439: 31
+    [Replace page] Frame14: Page 40 -> Page 7
+(LA) 7345 -> (PA) 14513: 0
+    [Replace page] Frame1: Page 33 -> Page 19
+(LA) 20325 -> (PA) 1893: 0
+    [Replace page] Frame6: Page 4 -> Page 38
+(LA) 39633 -> (PA) 6865: 0
+    [Replace page] Frame7: Page 56 -> Page 1
+(LA) 1562 -> (PA) 7706: 1
+[Page Table] (LA) 7580 -> (PA) 14748: 0
+[Page Table] (LA) 8170 -> (PA) 15338: 7
+    [Replace page] Frame11: Page 3 -> Page 60
+(LA) 62256 -> (PA) 12080: 0
+    [Replace page] Frame15: Page 29 -> Page 34
+(LA) 35823 -> (PA) 16367: 251
+    [Replace page] Frame9: Page 61 -> Page 27
+(LA) 27790 -> (PA) 9358: 27
+    [Replace page] Frame0: Page 2 -> Page 12
+(LA) 13191 -> (PA) 903: 225
+    [Replace page] Frame4: Page 50 -> Page 9
+(LA) 9772 -> (PA) 4652: 0
+[Page Table] (LA) 7477 -> (PA) 14645: 0
+    [Replace page] Frame10: Page 6 -> Page 43
+(LA) 44455 -> (PA) 10663: 105
+[Page Table] (LA) 59546 -> (PA) 13466: 58
+    [Replace page] Frame12: Page 37 -> Page 48
+(LA) 49347 -> (PA) 12483: 48
+    [Replace page] Frame5: Page 57 -> Page 35
+(LA) 36539 -> (PA) 5819: 174
+[Page Table] (LA) 12453 -> (PA) 165: 0
+[Page Table] (LA) 49640 -> (PA) 12776: 0
+[Page Table] (LA) 28290 -> (PA) 9858: 27
+[Page Table] (LA) 44817 -> (PA) 11025: 0
+    [Replace page] Frame2: Page 59 -> Page 8
+(LA) 8565 -> (PA) 2421: 0
+    [Replace page] Frame3: Page 26 -> Page 16
+(LA) 16399 -> (PA) 3087: 3
+    [Replace page] Frame8: Page 49 -> Page 40
+(LA) 41934 -> (PA) 9166: 40
+    [Replace page] Frame1: Page 19 -> Page 44
+(LA) 45457 -> (PA) 1425: 0
+    [Replace page] Frame6: Page 38 -> Page 33
+(LA) 33856 -> (PA) 6208: 0
+    [Replace page] Frame7: Page 1 -> Page 19
+(LA) 19498 -> (PA) 7210: 19
+    [Replace page] Frame11: Page 60 -> Page 17
+(LA) 17661 -> (PA) 11517: 0
+    [Replace page] Frame15: Page 34 -> Page 62
+(LA) 63829 -> (PA) 15701: 0
+    [Replace page] Frame4: Page 9 -> Page 41
+(LA) 42034 -> (PA) 4146: 41
+    [Replace page] Frame14: Page 7 -> Page 28
+(LA) 28928 -> (PA) 14592: 0
+    [Replace page] Frame13: Page 58 -> Page 29
+(LA) 30711 -> (PA) 14327: 253
+[Page Table] (LA) 8800 -> (PA) 2656: 0
+    [Replace page] Frame5: Page 35 -> Page 51
+(LA) 52335 -> (PA) 5231: 27
+    [Replace page] Frame0: Page 12 -> Page 37
+(LA) 38775 -> (PA) 887: 221
+[Page Table] (LA) 52704 -> (PA) 5600: 0
+    [Replace page] Frame12: Page 48 -> Page 23
+(LA) 24380 -> (PA) 13116: 0
+[Page Table] (LA) 19602 -> (PA) 7314: 19
+    [Replace page] Frame9: Page 27 -> Page 56
+(LA) 57998 -> (PA) 9870: 56
+    [Replace page] Frame10: Page 43 -> Page 2
+(LA) 2919 -> (PA) 11111: 217
+[Page Table] (LA) 8362 -> (PA) 2218: 8
+[Page Table] (LA) 17884 -> (PA) 11740: 0
+[Page Table] (LA) 45737 -> (PA) 1705: 0
+    [Replace page] Frame3: Page 16 -> Page 46
+(LA) 47894 -> (PA) 3862: 46
+    [Replace page] Frame8: Page 40 -> Page 58
+(LA) 59667 -> (PA) 8467: 68
+    [Replace page] Frame6: Page 33 -> Page 10
+(LA) 10385 -> (PA) 6289: 0
+[Page Table] (LA) 52782 -> (PA) 5678: 51
+[Page Table] (LA) 64416 -> (PA) 16288: 0
+    [Replace page] Frame4: Page 41 -> Page 39
+(LA) 40946 -> (PA) 5106: 39
+    [Replace page] Frame14: Page 28 -> Page 16
+(LA) 16778 -> (PA) 14730: 16
+    [Replace page] Frame13: Page 29 -> Page 26
+(LA) 27159 -> (PA) 13847: 133
+[Page Table] (LA) 24324 -> (PA) 13060: 0
+    [Replace page] Frame0: Page 37 -> Page 31
+(LA) 32450 -> (PA) 706: 31
+[Page Table] (LA) 9108 -> (PA) 2964: 0
+    [Replace page] Frame7: Page 19 -> Page 63
+(LA) 65305 -> (PA) 7961: 0
+    [Replace page] Frame9: Page 56 -> Page 19
+(LA) 19575 -> (PA) 9335: 29
+[Page Table] (LA) 11117 -> (PA) 7021: 0
+[Page Table] (LA) 65170 -> (PA) 7826: 63
+    [Replace page] Frame10: Page 2 -> Page 56
+(LA) 58013 -> (PA) 10909: 0
+    [Replace page] Frame11: Page 17 -> Page 60
+(LA) 61676 -> (PA) 11500: 0
+[Page Table] (LA) 63510 -> (PA) 15382: 62
+    [Replace page] Frame1: Page 44 -> Page 17
+(LA) 17458 -> (PA) 1074: 17
+    [Replace page] Frame3: Page 46 -> Page 53
+(LA) 54675 -> (PA) 3475: 100
+    [Replace page] Frame8: Page 58 -> Page 1
+(LA) 1713 -> (PA) 8881: 0
+[Page Table] (LA) 55105 -> (PA) 3905: 0
+[Page Table] (LA) 65321 -> (PA) 7977: 0
+    [Replace page] Frame5: Page 51 -> Page 44
+(LA) 45278 -> (PA) 5342: 44
+    [Replace page] Frame4: Page 39 -> Page 25
+(LA) 26256 -> (PA) 4752: 0
+[Page Table] (LA) 64198 -> (PA) 16070: 62
+    [Replace page] Frame14: Page 16 -> Page 28
+(LA) 29441 -> (PA) 15105: 0
+[Page Table] (LA) 1928 -> (PA) 9096: 0
+    [Replace page] Frame13: Page 26 -> Page 38
+(LA) 39425 -> (PA) 13825: 0
+[Page Table] (LA) 32000 -> (PA) 256: 0
+    [Replace page] Frame12: Page 23 -> Page 27
+(LA) 28549 -> (PA) 13189: 0
+    [Replace page] Frame2: Page 8 -> Page 45
+(LA) 46295 -> (PA) 2263: 53
+    [Replace page] Frame9: Page 19 -> Page 22
+(LA) 22772 -> (PA) 9460: 0
+[Page Table] (LA) 58228 -> (PA) 11124: 0
+[Page Table] (LA) 63525 -> (PA) 15397: 0
+[Page Table] (LA) 32602 -> (PA) 858: 31
+[Page Table] (LA) 46195 -> (PA) 2163: 28
+    [Replace page] Frame6: Page 10 -> Page 54
+(LA) 55849 -> (PA) 6697: 0
+[Page Table] (LA) 46454 -> (PA) 2422: 45
+    [Replace page] Frame11: Page 60 -> Page 7
+(LA) 7487 -> (PA) 11583: 79
+    [Replace page] Frame1: Page 17 -> Page 33
+(LA) 33879 -> (PA) 1111: 21
+    [Replace page] Frame3: Page 53 -> Page 41
+(LA) 42004 -> (PA) 3092: 0
+    [Replace page] Frame7: Page 63 -> Page 8
+(LA) 8599 -> (PA) 7575: 101
+    [Replace page] Frame5: Page 44 -> Page 18
+(LA) 18641 -> (PA) 5329: 0
+    [Replace page] Frame4: Page 25 -> Page 47
+(LA) 49015 -> (PA) 4983: 221
+    [Replace page] Frame14: Page 28 -> Page 26
+(LA) 26830 -> (PA) 14542: 26
+[Page Table] (LA) 34754 -> (PA) 1986: 33
+    [Replace page] Frame8: Page 1 -> Page 14
+(LA) 14668 -> (PA) 8524: 0
+    [Replace page] Frame13: Page 38 -> Page 37
+(LA) 38362 -> (PA) 13786: 37
+[Page Table] (LA) 38791 -> (PA) 14215: 225
+    [Replace page] Frame12: Page 27 -> Page 4
+(LA) 4171 -> (PA) 12363: 18
+    [Replace page] Frame9: Page 22 -> Page 44
+(LA) 45975 -> (PA) 10135: 229
+[Page Table] (LA) 14623 -> (PA) 8479: 71
+    [Replace page] Frame10: Page 56 -> Page 60
+(LA) 62393 -> (PA) 11193: 0
+    [Replace page] Frame15: Page 62 -> Page 63
+(LA) 64658 -> (PA) 15506: 63
+    [Replace page] Frame0: Page 31 -> Page 10
+(LA) 10963 -> (PA) 723: 180
+[Page Table] (LA) 9058 -> (PA) 8034: 8
+    [Replace page] Frame6: Page 54 -> Page 49
+(LA) 51031 -> (PA) 6999: 213
+    [Replace page] Frame2: Page 45 -> Page 31
+(LA) 32425 -> (PA) 2729: 0
+[Page Table] (LA) 45483 -> (PA) 9643: 106
+    [Replace page] Frame11: Page 7 -> Page 43
+(LA) 44611 -> (PA) 11843: 144
+    [Replace page] Frame3: Page 41 -> Page 62
+(LA) 63664 -> (PA) 3248: 0
+    [Replace page] Frame5: Page 18 -> Page 53
+(LA) 54920 -> (PA) 5768: 0
+    [Replace page] Frame4: Page 47 -> Page 7
+(LA) 7663 -> (PA) 4591: 123
+    [Replace page] Frame14: Page 26 -> Page 55
+(LA) 56480 -> (PA) 14496: 0
+    [Replace page] Frame1: Page 33 -> Page 1
+(LA) 1489 -> (PA) 1489: 0
+    [Replace page] Frame13: Page 37 -> Page 27
+(LA) 28438 -> (PA) 14102: 27
+[Page Table] (LA) 65449 -> (PA) 16297: 0
+    [Replace page] Frame12: Page 4 -> Page 12
+(LA) 12441 -> (PA) 12441: 0
+    [Replace page] Frame8: Page 14 -> Page 57
+(LA) 58530 -> (PA) 8354: 57
+[Page Table] (LA) 63570 -> (PA) 3154: 62
+    [Replace page] Frame10: Page 60 -> Page 25
+(LA) 26251 -> (PA) 10891: 162
+    [Replace page] Frame0: Page 10 -> Page 15
+(LA) 15972 -> (PA) 612: 0
+    [Replace page] Frame7: Page 8 -> Page 34
+(LA) 35826 -> (PA) 8178: 34
+    [Replace page] Frame6: Page 49 -> Page 5
+(LA) 5491 -> (PA) 6515: 92
+    [Replace page] Frame2: Page 31 -> Page 52
+(LA) 54253 -> (PA) 3053: 0
+    [Replace page] Frame9: Page 44 -> Page 48
+(LA) 49655 -> (PA) 9719: 125
+[Page Table] (LA) 5868 -> (PA) 6892: 0
+    [Replace page] Frame11: Page 43 -> Page 19
+(LA) 20163 -> (PA) 11971: 176
+    [Replace page] Frame5: Page 53 -> Page 49
+(LA) 51079 -> (PA) 6023: 225
+    [Replace page] Frame4: Page 7 -> Page 20
+(LA) 21398 -> (PA) 5014: 20
+    [Replace page] Frame14: Page 55 -> Page 31
+(LA) 32756 -> (PA) 15348: 0
+[Page Table] (LA) 64196 -> (PA) 3780: 0
+    [Replace page] Frame1: Page 1 -> Page 42
+(LA) 43218 -> (PA) 1234: 42
+    [Replace page] Frame13: Page 27 -> Page 21
+(LA) 21583 -> (PA) 13391: 19
+    [Replace page] Frame15: Page 63 -> Page 24
+(LA) 25086 -> (PA) 15870: 24
+    [Replace page] Frame12: Page 12 -> Page 44
+(LA) 45515 -> (PA) 12747: 114
+    [Replace page] Frame8: Page 57 -> Page 12
+(LA) 12893 -> (PA) 8797: 0
+    [Replace page] Frame10: Page 25 -> Page 22
+(LA) 22914 -> (PA) 10626: 22
+    [Replace page] Frame0: Page 15 -> Page 57
+(LA) 58969 -> (PA) 601: 0
+[Page Table] (LA) 20094 -> (PA) 11902: 19
+    [Replace page] Frame7: Page 34 -> Page 13
+(LA) 13730 -> (PA) 7586: 13
+    [Replace page] Frame2: Page 52 -> Page 43
+(LA) 44059 -> (PA) 2075: 6
+    [Replace page] Frame9: Page 48 -> Page 28
+(LA) 28931 -> (PA) 9475: 64
+[Page Table] (LA) 13533 -> (PA) 7389: 0
+    [Replace page] Frame6: Page 5 -> Page 32
+(LA) 33134 -> (PA) 6510: 32
+    [Replace page] Frame5: Page 49 -> Page 27
+(LA) 28483 -> (PA) 5955: 208
+    [Replace page] Frame4: Page 20 -> Page 1
+(LA) 1220 -> (PA) 4292: 0
+    [Replace page] Frame14: Page 31 -> Page 37
+(LA) 38174 -> (PA) 14622: 37
+    [Replace page] Frame3: Page 62 -> Page 52
+(LA) 53502 -> (PA) 3326: 52
+[Page Table] (LA) 43328 -> (PA) 1344: 0
+    [Replace page] Frame13: Page 21 -> Page 4
+(LA) 4970 -> (PA) 14186: 4
+    [Replace page] Frame15: Page 24 -> Page 7
+(LA) 8090 -> (PA) 16282: 7
+    [Replace page] Frame12: Page 44 -> Page 2
+(LA) 2661 -> (PA) 12901: 0
+[Page Table] (LA) 53903 -> (PA) 3727: 163
+    [Replace page] Frame8: Page 12 -> Page 10
+(LA) 11025 -> (PA) 8977: 0
+    [Replace page] Frame10: Page 22 -> Page 26
+(LA) 26627 -> (PA) 10243: 0
+    [Replace page] Frame0: Page 57 -> Page 17
+(LA) 18117 -> (PA) 709: 0
+    [Replace page] Frame11: Page 19 -> Page 14
+(LA) 14505 -> (PA) 11433: 0
+    [Replace page] Frame2: Page 43 -> Page 60
+(LA) 61528 -> (PA) 2136: 0
+    [Replace page] Frame9: Page 28 -> Page 19
+(LA) 20423 -> (PA) 10183: 241
+[Page Table] (LA) 26962 -> (PA) 10578: 26
+    [Replace page] Frame7: Page 13 -> Page 35
+(LA) 36392 -> (PA) 7720: 0
+    [Replace page] Frame6: Page 32 -> Page 11
+(LA) 11365 -> (PA) 6245: 0
+    [Replace page] Frame5: Page 27 -> Page 49
+(LA) 50882 -> (PA) 5826: 49
+    [Replace page] Frame4: Page 1 -> Page 40
+(LA) 41668 -> (PA) 4804: 0
+    [Replace page] Frame14: Page 37 -> Page 29
+(LA) 30497 -> (PA) 15137: 0
+[Page Table] (LA) 36216 -> (PA) 7544: 0
+    [Replace page] Frame1: Page 42 -> Page 5
+(LA) 5619 -> (PA) 1523: 124
+    [Replace page] Frame13: Page 4 -> Page 36
+(LA) 36983 -> (PA) 13431: 29
+    [Replace page] Frame15: Page 7 -> Page 58
+(LA) 59557 -> (PA) 15525: 0
+[Page Table] (LA) 36663 -> (PA) 7991: 205
+[Page Table] (LA) 36436 -> (PA) 7764: 0
+[Page Table] (LA) 37057 -> (PA) 13505: 0
+    [Replace page] Frame12: Page 2 -> Page 23
+(LA) 23585 -> (PA) 12321: 0
+    [Replace page] Frame3: Page 52 -> Page 57
+(LA) 58791 -> (PA) 3495: 105
+    [Replace page] Frame8: Page 10 -> Page 45
+(LA) 46666 -> (PA) 8778: 45
+    [Replace page] Frame0: Page 17 -> Page 62
+(LA) 64475 -> (PA) 987: 246
+    [Replace page] Frame11: Page 14 -> Page 21
+(LA) 21615 -> (PA) 11375: 27
+[Page Table] (LA) 41090 -> (PA) 4226: 40
+    [Replace page] Frame2: Page 60 -> Page 1
+(LA) 1771 -> (PA) 2795: 186
+    [Replace page] Frame9: Page 19 -> Page 46
+(LA) 47513 -> (PA) 9625: 0
+    [Replace page] Frame10: Page 26 -> Page 38
+(LA) 39338 -> (PA) 10666: 38
+[Page Table] (LA) 1390 -> (PA) 2414: 1
+    [Replace page] Frame6: Page 11 -> Page 37
+(LA) 38772 -> (PA) 7028: 0
+    [Replace page] Frame5: Page 49 -> Page 56
+(LA) 58149 -> (PA) 5925: 0
+    [Replace page] Frame14: Page 29 -> Page 7
+(LA) 7196 -> (PA) 14364: 0
+    [Replace page] Frame1: Page 5 -> Page 8
+(LA) 9123 -> (PA) 1955: 232
+[Page Table] (LA) 7491 -> (PA) 14659: 80
+    [Replace page] Frame15: Page 58 -> Page 61
+(LA) 62616 -> (PA) 15512: 0
+    [Replace page] Frame7: Page 35 -> Page 15
+(LA) 15436 -> (PA) 7244: 0
+    [Replace page] Frame13: Page 36 -> Page 17
+(LA) 17491 -> (PA) 13395: 20
+    [Replace page] Frame12: Page 23 -> Page 52
+(LA) 53656 -> (PA) 12696: 0
+    [Replace page] Frame3: Page 57 -> Page 25
+(LA) 26449 -> (PA) 3921: 0
+    [Replace page] Frame8: Page 45 -> Page 34
+(LA) 34935 -> (PA) 8311: 29
+    [Replace page] Frame0: Page 62 -> Page 19
+(LA) 19864 -> (PA) 408: 0
+    [Replace page] Frame11: Page 21 -> Page 50
+(LA) 51388 -> (PA) 11452: 0
+    [Replace page] Frame4: Page 40 -> Page 14
+(LA) 15155 -> (PA) 4915: 204
+    [Replace page] Frame9: Page 46 -> Page 63
+(LA) 64775 -> (PA) 9479: 65
+    [Replace page] Frame10: Page 38 -> Page 46
+(LA) 47969 -> (PA) 11105: 0
+[Page Table] (LA) 16315 -> (PA) 8123: 238
+[Page Table] (LA) 1342 -> (PA) 2366: 1
+    [Replace page] Frame6: Page 37 -> Page 49
+(LA) 51185 -> (PA) 7153: 0
+    [Replace page] Frame5: Page 56 -> Page 5
+(LA) 6043 -> (PA) 6043: 230
+    [Replace page] Frame1: Page 8 -> Page 20
+(LA) 21398 -> (PA) 1942: 20
+    [Replace page] Frame14: Page 7 -> Page 3
+(LA) 3273 -> (PA) 14537: 0
+    [Replace page] Frame15: Page 61 -> Page 9
+(LA) 9370 -> (PA) 15514: 9
+[Page Table] (LA) 35463 -> (PA) 8839: 161
+    [Replace page] Frame13: Page 17 -> Page 27
+(LA) 28205 -> (PA) 13869: 0
+    [Replace page] Frame12: Page 52 -> Page 2
+(LA) 2351 -> (PA) 12591: 75
+    [Replace page] Frame3: Page 25 -> Page 28
+(LA) 28999 -> (PA) 3399: 81
+[Page Table] (LA) 47699 -> (PA) 10835: 148
+    [Replace page] Frame0: Page 19 -> Page 45
+(LA) 46870 -> (PA) 790: 45
+    [Replace page] Frame11: Page 50 -> Page 21
+(LA) 22311 -> (PA) 12071: 201
+[Page Table] (LA) 22124 -> (PA) 11884: 0
+[Page Table] (LA) 22427 -> (PA) 12187: 230
+    [Replace page] Frame4: Page 14 -> Page 48
+(LA) 49344 -> (PA) 4288: 0
+    [Replace page] Frame9: Page 63 -> Page 22
+(LA) 23224 -> (PA) 9912: 0
+[Page Table] (LA) 5514 -> (PA) 5514: 5
+[Page Table] (LA) 20504 -> (PA) 1048: 0
+    [Replace page] Frame7: Page 15 -> Page 0
+(LA) 376 -> (PA) 7544: 0
+[Page Table] (LA) 2014 -> (PA) 3038: 1
+    [Replace page] Frame6: Page 49 -> Page 37
+(LA) 38700 -> (PA) 6956: 0
+    [Replace page] Frame14: Page 3 -> Page 12
+(LA) 13098 -> (PA) 15146: 12
+    [Replace page] Frame15: Page 9 -> Page 60
+(LA) 62435 -> (PA) 16355: 248
+[Page Table] (LA) 48046 -> (PA) 11182: 46
+    [Replace page] Frame8: Page 34 -> Page 61
+(LA) 63464 -> (PA) 9192: 0
+[Page Table] (LA) 12798 -> (PA) 14846: 12
+    [Replace page] Frame13: Page 27 -> Page 49
+(LA) 51178 -> (PA) 14314: 49
+    [Replace page] Frame12: Page 2 -> Page 8
+(LA) 8627 -> (PA) 12723: 108
+    [Replace page] Frame3: Page 28 -> Page 26
+(LA) 27083 -> (PA) 3531: 114
+[Page Table] (LA) 47198 -> (PA) 10334: 46
+    [Replace page] Frame0: Page 45 -> Page 42
+(LA) 44021 -> (PA) 1013: 0
+    [Replace page] Frame11: Page 21 -> Page 32
+(LA) 32792 -> (PA) 11288: 0
+[Page Table] (LA) 43996 -> (PA) 988: 0
+    [Replace page] Frame4: Page 48 -> Page 40
+(LA) 41126 -> (PA) 4262: 40
+    [Replace page] Frame9: Page 22 -> Page 62
+(LA) 64244 -> (PA) 9972: 0
+    [Replace page] Frame5: Page 5 -> Page 36
+(LA) 37047 -> (PA) 5303: 45
+    [Replace page] Frame1: Page 20 -> Page 58
+(LA) 60281 -> (PA) 1913: 0
+    [Replace page] Frame7: Page 0 -> Page 51
+(LA) 52904 -> (PA) 7848: 0
+    [Replace page] Frame2: Page 1 -> Page 7
+(LA) 7768 -> (PA) 2648: 0
+    [Replace page] Frame6: Page 37 -> Page 54
+(LA) 55359 -> (PA) 6207: 15
+    [Replace page] Frame15: Page 60 -> Page 3
+(LA) 3230 -> (PA) 15518: 3
+    [Replace page] Frame8: Page 61 -> Page 43
+(LA) 44813 -> (PA) 8973: 0
+    [Replace page] Frame14: Page 12 -> Page 4
+(LA) 4116 -> (PA) 14356: 0
+    [Replace page] Frame13: Page 49 -> Page 63
+(LA) 65222 -> (PA) 14022: 63
+    [Replace page] Frame12: Page 8 -> Page 27
+(LA) 28083 -> (PA) 12723: 108
+    [Replace page] Frame3: Page 26 -> Page 59
+(LA) 60660 -> (PA) 3316: 0
+    [Replace page] Frame10: Page 46 -> Page 0
+(LA) 39 -> (PA) 10279: 9
+[Page Table] (LA) 328 -> (PA) 10568: 0
+    [Replace page] Frame11: Page 32 -> Page 46
+(LA) 47868 -> (PA) 12028: 0
+    [Replace page] Frame0: Page 42 -> Page 12
+(LA) 13009 -> (PA) 721: 0
+    [Replace page] Frame4: Page 40 -> Page 21
+(LA) 22378 -> (PA) 4970: 21
+    [Replace page] Frame9: Page 62 -> Page 38
+(LA) 39304 -> (PA) 9608: 0
+    [Replace page] Frame5: Page 36 -> Page 10
+(LA) 11171 -> (PA) 6051: 232
+[Page Table] (LA) 8079 -> (PA) 2959: 227
+[Page Table] (LA) 52879 -> (PA) 7823: 163
+    [Replace page] Frame1: Page 58 -> Page 5
+(LA) 5123 -> (PA) 1027: 0
+[Page Table] (LA) 4356 -> (PA) 14596: 0
+    [Replace page] Frame6: Page 54 -> Page 44
+(LA) 45745 -> (PA) 6833: 0
+    [Replace page] Frame15: Page 3 -> Page 32
+(LA) 32952 -> (PA) 15544: 0
+[Page Table] (LA) 4657 -> (PA) 14897: 0
+    [Replace page] Frame8: Page 43 -> Page 23
+(LA) 24142 -> (PA) 8782: 23
+    [Replace page] Frame13: Page 63 -> Page 22
+(LA) 23319 -> (PA) 14103: 197
+    [Replace page] Frame12: Page 27 -> Page 13
+(LA) 13607 -> (PA) 12583: 73
+    [Replace page] Frame3: Page 59 -> Page 45
+(LA) 46304 -> (PA) 3296: 0
+    [Replace page] Frame10: Page 0 -> Page 17
+(LA) 17677 -> (PA) 10509: 0
+    [Replace page] Frame11: Page 46 -> Page 58
+(LA) 59691 -> (PA) 11563: 74
+    [Replace page] Frame0: Page 12 -> Page 49
+(LA) 50967 -> (PA) 791: 197
+[Page Table] (LA) 7817 -> (PA) 2697: 0
+    [Replace page] Frame4: Page 21 -> Page 8
+(LA) 8545 -> (PA) 4449: 0
+    [Replace page] Frame9: Page 38 -> Page 54
+(LA) 55297 -> (PA) 9217: 0
+[Page Table] (LA) 52954 -> (PA) 7898: 51
+    [Replace page] Frame5: Page 10 -> Page 38
+(LA) 39720 -> (PA) 5928: 0
+    [Replace page] Frame1: Page 5 -> Page 18
+(LA) 18455 -> (PA) 1047: 5
+    [Replace page] Frame6: Page 44 -> Page 29
+(LA) 30349 -> (PA) 6797: 0
+    [Replace page] Frame15: Page 32 -> Page 61
+(LA) 63270 -> (PA) 16166: 61
+    [Replace page] Frame14: Page 4 -> Page 26
+(LA) 27156 -> (PA) 14868: 0
+    [Replace page] Frame8: Page 23 -> Page 20
+(LA) 20614 -> (PA) 8326: 20
+[Page Table] (LA) 19372 -> (PA) 1964: 0
+    [Replace page] Frame13: Page 22 -> Page 47
+(LA) 48689 -> (PA) 13873: 0
+    [Replace page] Frame12: Page 13 -> Page 48
+(LA) 49386 -> (PA) 12522: 48
+[Page Table] (LA) 50584 -> (PA) 408: 0
+    [Replace page] Frame3: Page 45 -> Page 50
+(LA) 51936 -> (PA) 3808: 0
+    [Replace page] Frame10: Page 17 -> Page 33
+(LA) 34705 -> (PA) 11153: 0
+    [Replace page] Frame11: Page 58 -> Page 13
+(LA) 13653 -> (PA) 11605: 0
+[Page Table] (LA) 50077 -> (PA) 13213: 0
+    [Replace page] Frame2: Page 7 -> Page 53
+(LA) 54518 -> (PA) 2294: 53
+    [Replace page] Frame4: Page 8 -> Page 40
+(LA) 41482 -> (PA) 4618: 40
+    [Replace page] Frame9: Page 54 -> Page 4
+(LA) 4169 -> (PA) 9289: 0
+    [Replace page] Frame7: Page 51 -> Page 35
+(LA) 36118 -> (PA) 7446: 35
+    [Replace page] Frame5: Page 38 -> Page 9
+(LA) 9584 -> (PA) 5488: 0
+[Page Table] (LA) 18490 -> (PA) 1082: 18
+    [Replace page] Frame6: Page 29 -> Page 54
+(LA) 55420 -> (PA) 6268: 0
+    [Replace page] Frame15: Page 61 -> Page 5
+(LA) 5708 -> (PA) 15948: 0
+    [Replace page] Frame14: Page 26 -> Page 22
+(LA) 23506 -> (PA) 15314: 22
+    [Replace page] Frame8: Page 20 -> Page 15
+(LA) 15391 -> (PA) 8223: 7
+[Page Table] (LA) 36368 -> (PA) 7696: 0
+    [Replace page] Frame13: Page 47 -> Page 38
+(LA) 38976 -> (PA) 13376: 0
+[Page Table] (LA) 50406 -> (PA) 230: 49
+[Page Table] (LA) 49236 -> (PA) 12372: 0
+    [Replace page] Frame3: Page 50 -> Page 63
+(LA) 65035 -> (PA) 3595: 130
+    [Replace page] Frame10: Page 33 -> Page 29
+(LA) 30120 -> (PA) 10664: 0
+    [Replace page] Frame11: Page 13 -> Page 61
+(LA) 62551 -> (PA) 11351: 21
+    [Replace page] Frame2: Page 53 -> Page 45
+(LA) 46809 -> (PA) 2777: 0
+    [Replace page] Frame4: Page 40 -> Page 21
+(LA) 21687 -> (PA) 4279: 45
+    [Replace page] Frame9: Page 4 -> Page 52
+(LA) 53839 -> (PA) 9807: 147
+    [Replace page] Frame5: Page 9 -> Page 2
+(LA) 2098 -> (PA) 5170: 2
+    [Replace page] Frame1: Page 18 -> Page 12
+(LA) 12364 -> (PA) 1100: 0
+    [Replace page] Frame6: Page 54 -> Page 44
+(LA) 45366 -> (PA) 6454: 44
+[Page Table] (LA) 50437 -> (PA) 261: 0
+[Page Table] (LA) 36675 -> (PA) 8003: 208
+    [Replace page] Frame15: Page 5 -> Page 54
+(LA) 55382 -> (PA) 15446: 54
+    [Replace page] Frame14: Page 22 -> Page 11
+(LA) 11846 -> (PA) 14918: 11
+    [Replace page] Frame8: Page 15 -> Page 47
+(LA) 49127 -> (PA) 9191: 249
+    [Replace page] Frame13: Page 38 -> Page 19
+(LA) 19900 -> (PA) 13756: 0
+    [Replace page] Frame12: Page 48 -> Page 20
+(LA) 20554 -> (PA) 12362: 20
+    [Replace page] Frame3: Page 63 -> Page 18
+(LA) 19219 -> (PA) 3859: 196
+    [Replace page] Frame10: Page 29 -> Page 50
+(LA) 51483 -> (PA) 10523: 70
+    [Replace page] Frame11: Page 61 -> Page 56
+(LA) 58090 -> (PA) 12010: 56
+    [Replace page] Frame2: Page 45 -> Page 38
+(LA) 39074 -> (PA) 2210: 38
+    [Replace page] Frame4: Page 21 -> Page 15
+(LA) 16060 -> (PA) 4796: 0
+    [Replace page] Frame9: Page 52 -> Page 10
+(LA) 10447 -> (PA) 9423: 51
+    [Replace page] Frame5: Page 2 -> Page 52
+(LA) 54169 -> (PA) 6041: 0
+[Page Table] (LA) 20634 -> (PA) 12442: 20
+[Page Table] (LA) 57555 -> (PA) 11475: 52
+    [Replace page] Frame1: Page 12 -> Page 59
+(LA) 61210 -> (PA) 1818: 59
+    [Replace page] Frame6: Page 44 -> Page 0
+(LA) 269 -> (PA) 6413: 0
+    [Replace page] Frame0: Page 49 -> Page 32
+(LA) 33154 -> (PA) 386: 32
+    [Replace page] Frame7: Page 35 -> Page 62
+(LA) 64487 -> (PA) 8167: 249
+[Page Table] (LA) 61223 -> (PA) 1831: 201
+    [Replace page] Frame15: Page 54 -> Page 46
+(LA) 47292 -> (PA) 15548: 0
+    [Replace page] Frame14: Page 11 -> Page 21
+(LA) 21852 -> (PA) 14684: 0
+    [Replace page] Frame8: Page 47 -> Page 5
+(LA) 5281 -> (PA) 8353: 0
+    [Replace page] Frame13: Page 19 -> Page 44
+(LA) 45912 -> (PA) 14168: 0
+    [Replace page] Frame3: Page 18 -> Page 31
+(LA) 32532 -> (PA) 3860: 0
+    [Replace page] Frame10: Page 50 -> Page 61
+(LA) 63067 -> (PA) 10843: 150
+    [Replace page] Frame2: Page 38 -> Page 40
+(LA) 41683 -> (PA) 2771: 180
+[Page Table] (LA) 20981 -> (PA) 12789: 0
+    [Replace page] Frame4: Page 15 -> Page 33
+(LA) 33881 -> (PA) 4185: 0
+[Page Table] (LA) 41785 -> (PA) 2873: 0
+    [Replace page] Frame9: Page 10 -> Page 4
+(LA) 4580 -> (PA) 9700: 0
+[Page Table] (LA) 41389 -> (PA) 2477: 0
+    [Replace page] Frame5: Page 52 -> Page 27
+(LA) 28572 -> (PA) 6044: 0
+[Page Table] (LA) 782 -> (PA) 6926: 0
+    [Replace page] Frame11: Page 56 -> Page 29
+(LA) 30273 -> (PA) 11841: 0
+    [Replace page] Frame0: Page 32 -> Page 60
+(LA) 62267 -> (PA) 827: 206
+    [Replace page] Frame7: Page 62 -> Page 17
+(LA) 17922 -> (PA) 7682: 17
+[Page Table] (LA) 63238 -> (PA) 11014: 61
+    [Replace page] Frame1: Page 59 -> Page 3
+(LA) 3308 -> (PA) 1260: 0
+    [Replace page] Frame15: Page 46 -> Page 25
+(LA) 26545 -> (PA) 16305: 0
+    [Replace page] Frame14: Page 21 -> Page 43
+(LA) 44395 -> (PA) 14699: 90
+    [Replace page] Frame8: Page 5 -> Page 38
+(LA) 39120 -> (PA) 8400: 0
+    [Replace page] Frame13: Page 44 -> Page 21
+(LA) 21706 -> (PA) 13514: 21
+    [Replace page] Frame3: Page 31 -> Page 6
+(LA) 7144 -> (PA) 4072: 0
+[Page Table] (LA) 30244 -> (PA) 11812: 0
+[Page Table] (LA) 3725 -> (PA) 1677: 0
+    [Replace page] Frame12: Page 20 -> Page 53
+(LA) 54632 -> (PA) 12648: 0
+[Page Table] (LA) 30574 -> (PA) 12142: 29
+    [Replace page] Frame4: Page 33 -> Page 8
+(LA) 8473 -> (PA) 4377: 0
+    [Replace page] Frame9: Page 4 -> Page 12
+(LA) 12386 -> (PA) 9314: 12
+[Page Table] (LA) 41114 -> (PA) 2202: 40
+    [Replace page] Frame5: Page 27 -> Page 56
+(LA) 57930 -> (PA) 5706: 56
+    [Replace page] Frame6: Page 0 -> Page 14
+(LA) 15341 -> (PA) 7149: 0
+    [Replace page] Frame0: Page 60 -> Page 15
+(LA) 15598 -> (PA) 238: 15
+    [Replace page] Frame7: Page 17 -> Page 58
+(LA) 59922 -> (PA) 7698: 58
+    [Replace page] Frame10: Page 61 -> Page 17
+(LA) 18226 -> (PA) 11058: 17
+    [Replace page] Frame15: Page 25 -> Page 47
+(LA) 48162 -> (PA) 15394: 47
+[Page Table] (LA) 41250 -> (PA) 2338: 40
+    [Replace page] Frame14: Page 43 -> Page 1
+(LA) 1512 -> (PA) 14824: 0
+    [Replace page] Frame8: Page 38 -> Page 2
+(LA) 2546 -> (PA) 8690: 2
+[Page Table] (LA) 41682 -> (PA) 2770: 40
+    [Replace page] Frame13: Page 21 -> Page 0
+(LA) 322 -> (PA) 13634: 0
+[Page Table] (LA) 880 -> (PA) 14192: 0
+    [Replace page] Frame3: Page 6 -> Page 20
+(LA) 20891 -> (PA) 3483: 102
+    [Replace page] Frame1: Page 3 -> Page 55
+(LA) 56604 -> (PA) 1308: 0
+    [Replace page] Frame12: Page 53 -> Page 39
+(LA) 40166 -> (PA) 12518: 39
+    [Replace page] Frame11: Page 29 -> Page 26
+(LA) 26791 -> (PA) 11431: 41
+    [Replace page] Frame4: Page 8 -> Page 43
+(LA) 44560 -> (PA) 4624: 0
+    [Replace page] Frame9: Page 12 -> Page 37
+(LA) 38698 -> (PA) 10026: 37
+    [Replace page] Frame5: Page 56 -> Page 62
+(LA) 64127 -> (PA) 5759: 159
+[Page Table] (LA) 15028 -> (PA) 6836: 0
+[Page Table] (LA) 38669 -> (PA) 9997: 0
+    [Replace page] Frame0: Page 15 -> Page 44
+(LA) 45637 -> (PA) 581: 0
+    [Replace page] Frame7: Page 58 -> Page 42
+(LA) 43151 -> (PA) 7311: 35
+    [Replace page] Frame10: Page 17 -> Page 9
+(LA) 9465 -> (PA) 10489: 0
+[Page Table] (LA) 2498 -> (PA) 8642: 2
+    [Replace page] Frame15: Page 47 -> Page 13
+(LA) 13978 -> (PA) 16026: 13
+    [Replace page] Frame14: Page 1 -> Page 15
+(LA) 16326 -> (PA) 15302: 15
+    [Replace page] Frame2: Page 40 -> Page 50
+(LA) 51442 -> (PA) 2290: 50
+    [Replace page] Frame13: Page 0 -> Page 34
+(LA) 34845 -> (PA) 13341: 0
+[Page Table] (LA) 63667 -> (PA) 5299: 44
+    [Replace page] Frame3: Page 20 -> Page 38
+(LA) 39370 -> (PA) 3530: 38
+    [Replace page] Frame1: Page 55 -> Page 54
+(LA) 55671 -> (PA) 1399: 93
+[Page Table] (LA) 64496 -> (PA) 6128: 0
+    [Replace page] Frame12: Page 39 -> Page 7
+(LA) 7767 -> (PA) 12887: 149
+    [Replace page] Frame11: Page 26 -> Page 6
+(LA) 6283 -> (PA) 11403: 34
+[Page Table] (LA) 55884 -> (PA) 1612: 0
+    [Replace page] Frame4: Page 43 -> Page 59
+(LA) 61103 -> (PA) 4783: 171
+[Page Table] (LA) 10184 -> (PA) 11208: 0
+[Page Table] (LA) 39543 -> (PA) 3703: 157
+[Page Table] (LA) 9555 -> (PA) 10579: 84
+[Page Table] (LA) 13963 -> (PA) 16011: 162
+    [Replace page] Frame6: Page 14 -> Page 57
+(LA) 58975 -> (PA) 6751: 151
+    [Replace page] Frame9: Page 37 -> Page 19
+(LA) 19537 -> (PA) 9297: 0
+    [Replace page] Frame0: Page 44 -> Page 5
+(LA) 6101 -> (PA) 981: 0
+    [Replace page] Frame7: Page 42 -> Page 40
+(LA) 41421 -> (PA) 7629: 0
+    [Replace page] Frame8: Page 2 -> Page 44
+(LA) 45502 -> (PA) 8638: 44
+    [Replace page] Frame14: Page 15 -> Page 28
+(LA) 29328 -> (PA) 14992: 0
+[Page Table] (LA) 8149 -> (PA) 13269: 0
+    [Replace page] Frame2: Page 50 -> Page 24
+(LA) 25450 -> (PA) 2922: 24
+[Page Table] (LA) 58944 -> (PA) 6720: 0
+    [Replace page] Frame13: Page 34 -> Page 49
+(LA) 50666 -> (PA) 13802: 49
+    [Replace page] Frame5: Page 62 -> Page 22
+(LA) 23084 -> (PA) 5676: 0
+    [Replace page] Frame11: Page 6 -> Page 35
+(LA) 36468 -> (PA) 11892: 0
+    [Replace page] Frame1: Page 54 -> Page 32
+(LA) 33645 -> (PA) 1901: 0
+[Page Table] (LA) 25002 -> (PA) 2474: 24
+    [Replace page] Frame4: Page 59 -> Page 52
+(LA) 53715 -> (PA) 4563: 116
+    [Replace page] Frame3: Page 38 -> Page 58
+(LA) 60173 -> (PA) 3853: 0
+    [Replace page] Frame10: Page 9 -> Page 45
+(LA) 46354 -> (PA) 10514: 45
+    [Replace page] Frame15: Page 13 -> Page 4
+(LA) 4708 -> (PA) 15972: 0
+    [Replace page] Frame9: Page 19 -> Page 27
+(LA) 28208 -> (PA) 9776: 0
+[Page Table] (LA) 58844 -> (PA) 6620: 0
+    [Replace page] Frame0: Page 5 -> Page 21
+(LA) 22173 -> (PA) 669: 0
+    [Replace page] Frame7: Page 40 -> Page 8
+(LA) 8535 -> (PA) 7511: 85
+    [Replace page] Frame8: Page 44 -> Page 41
+(LA) 42261 -> (PA) 8469: 0
+[Page Table] (LA) 29687 -> (PA) 15351: 253
+    [Replace page] Frame12: Page 7 -> Page 36
+(LA) 37799 -> (PA) 13223: 233
+[Page Table] (LA) 22566 -> (PA) 5158: 22
+    [Replace page] Frame13: Page 49 -> Page 61
+(LA) 62520 -> (PA) 13368: 0
+[Page Table] (LA) 4098 -> (PA) 15362: 4
+    [Replace page] Frame11: Page 35 -> Page 46
+(LA) 47999 -> (PA) 12159: 223
+    [Replace page] Frame1: Page 32 -> Page 48
+(LA) 49660 -> (PA) 1532: 0
+[Page Table] (LA) 37063 -> (PA) 12487: 49
+    [Replace page] Frame2: Page 24 -> Page 40
+(LA) 41856 -> (PA) 2944: 0
+    [Replace page] Frame4: Page 52 -> Page 5
+(LA) 5417 -> (PA) 4393: 0
+    [Replace page] Frame3: Page 58 -> Page 47
+(LA) 48856 -> (PA) 3800: 0
+    [Replace page] Frame10: Page 45 -> Page 10
+(LA) 10682 -> (PA) 10682: 10
+[Page Table] (LA) 22370 -> (PA) 866: 21
+[Page Table] (LA) 63281 -> (PA) 14129: 0
+    [Replace page] Frame9: Page 27 -> Page 60
+(LA) 62452 -> (PA) 10228: 0
+    [Replace page] Frame6: Page 57 -> Page 49
+(LA) 50532 -> (PA) 6500: 0
+[Page Table] (LA) 9022 -> (PA) 7998: 8
+    [Replace page] Frame8: Page 41 -> Page 57
+(LA) 59300 -> (PA) 9124: 0
+[Page Table] (LA) 58660 -> (PA) 8484: 0
+    [Replace page] Frame14: Page 28 -> Page 55
+(LA) 56401 -> (PA) 14417: 0
+[Page Table] (LA) 8518 -> (PA) 7494: 8
+[Page Table] (LA) 63066 -> (PA) 13914: 61
+[Page Table] (LA) 63250 -> (PA) 14098: 61
+[Page Table] (LA) 48592 -> (PA) 3536: 0
+    [Replace page] Frame5: Page 22 -> Page 28
+(LA) 28771 -> (PA) 5219: 24
+[Page Table] (LA) 37673 -> (PA) 13097: 0
+    [Replace page] Frame15: Page 4 -> Page 59
+(LA) 60776 -> (PA) 15720: 0
+[Page Table] (LA) 56438 -> (PA) 14454: 55
+[Page Table] (LA) 60424 -> (PA) 15368: 0
+    [Replace page] Frame11: Page 46 -> Page 39
+(LA) 39993 -> (PA) 11321: 0
+    [Replace page] Frame1: Page 48 -> Page 54
+(LA) 56004 -> (PA) 1732: 0
+[Page Table] (LA) 59002 -> (PA) 8826: 57
+    [Replace page] Frame2: Page 40 -> Page 33
+(LA) 33982 -> (PA) 2238: 33
+    [Replace page] Frame4: Page 5 -> Page 24
+(LA) 25498 -> (PA) 5018: 24
+[Page Table] (LA) 57047 -> (PA) 15063: 181
+    [Replace page] Frame10: Page 10 -> Page 1
+(LA) 1401 -> (PA) 10617: 0
+    [Replace page] Frame0: Page 21 -> Page 14
+(LA) 15130 -> (PA) 794: 14
+    [Replace page] Frame9: Page 60 -> Page 41
+(LA) 42960 -> (PA) 10192: 0
+    [Replace page] Frame6: Page 49 -> Page 60
+(LA) 61827 -> (PA) 6531: 96
+    [Replace page] Frame7: Page 8 -> Page 31
+(LA) 32442 -> (PA) 7866: 31
+    [Replace page] Frame13: Page 61 -> Page 62
+(LA) 64304 -> (PA) 14128: 0
+    [Replace page] Frame3: Page 47 -> Page 29
+(LA) 30273 -> (PA) 3649: 0
+    [Replace page] Frame5: Page 28 -> Page 37
+(LA) 38082 -> (PA) 5314: 37
+    [Replace page] Frame12: Page 36 -> Page 21
+(LA) 22404 -> (PA) 13188: 0
+    [Replace page] Frame15: Page 59 -> Page 3
+(LA) 3808 -> (PA) 16096: 0
+    [Replace page] Frame11: Page 39 -> Page 16
+(LA) 16883 -> (PA) 11763: 124
+    [Replace page] Frame1: Page 54 -> Page 22
+(LA) 23111 -> (PA) 1607: 145
+[Page Table] (LA) 62417 -> (PA) 7121: 0
+    [Replace page] Frame8: Page 57 -> Page 58
+(LA) 60364 -> (PA) 9164: 0
+    [Replace page] Frame2: Page 33 -> Page 4
+(LA) 4542 -> (PA) 2494: 4
+[Page Table] (LA) 14829 -> (PA) 493: 0
+    [Replace page] Frame4: Page 24 -> Page 43
+(LA) 44964 -> (PA) 5028: 0
+    [Replace page] Frame14: Page 55 -> Page 33
+(LA) 33924 -> (PA) 14468: 0
+    [Replace page] Frame10: Page 1 -> Page 2
+(LA) 2141 -> (PA) 10333: 0
+    [Replace page] Frame9: Page 41 -> Page 18
+(LA) 19245 -> (PA) 10029: 0
+    [Replace page] Frame7: Page 31 -> Page 46
+(LA) 47168 -> (PA) 7232: 0
+    [Replace page] Frame13: Page 62 -> Page 23
+(LA) 24048 -> (PA) 13808: 0
+    [Replace page] Frame3: Page 29 -> Page 0
+(LA) 1022 -> (PA) 4094: 0
+[Page Table] (LA) 23075 -> (PA) 1571: 136
+    [Replace page] Frame5: Page 37 -> Page 24
+(LA) 24888 -> (PA) 5432: 0
+    [Replace page] Frame12: Page 21 -> Page 48
+(LA) 49247 -> (PA) 12383: 23
+[Page Table] (LA) 4900 -> (PA) 2852: 0
+[Page Table] (LA) 22656 -> (PA) 1152: 0
+[Page Table] (LA) 34117 -> (PA) 14661: 0
+    [Replace page] Frame15: Page 3 -> Page 54
+(LA) 55555 -> (PA) 15619: 64
+    [Replace page] Frame11: Page 16 -> Page 47
+(LA) 48947 -> (PA) 12083: 204
+[Page Table] (LA) 59533 -> (PA) 8333: 0
+    [Replace page] Frame6: Page 60 -> Page 20
+(LA) 21312 -> (PA) 6976: 0
+[Page Table] (LA) 21415 -> (PA) 7079: 233
+[Page Table] (LA) 813 -> (PA) 3885: 0
+[Page Table] (LA) 19419 -> (PA) 10203: 246
+    [Replace page] Frame0: Page 14 -> Page 1
+(LA) 1999 -> (PA) 975: 243
+    [Replace page] Frame4: Page 43 -> Page 19
+(LA) 20155 -> (PA) 4795: 174
+    [Replace page] Frame10: Page 2 -> Page 21
+(LA) 21521 -> (PA) 10257: 0
+    [Replace page] Frame7: Page 46 -> Page 13
+(LA) 13670 -> (PA) 7526: 13
+[Page Table] (LA) 19289 -> (PA) 10073: 0
+    [Replace page] Frame13: Page 23 -> Page 57
+(LA) 58483 -> (PA) 13427: 28
+    [Replace page] Frame5: Page 24 -> Page 40
+(LA) 41318 -> (PA) 5478: 40
+    [Replace page] Frame12: Page 48 -> Page 15
+(LA) 16151 -> (PA) 13079: 197
+[Page Table] (LA) 13611 -> (PA) 7467: 74
+[Page Table] (LA) 21514 -> (PA) 10250: 21
+[Page Table] (LA) 13499 -> (PA) 7355: 46
+    [Replace page] Frame2: Page 4 -> Page 44
+(LA) 45583 -> (PA) 2575: 131
+[Page Table] (LA) 49013 -> (PA) 12149: 0
+    [Replace page] Frame1: Page 22 -> Page 63
+(LA) 64843 -> (PA) 1355: 82
+    [Replace page] Frame14: Page 33 -> Page 61
+(LA) 63485 -> (PA) 15357: 0
+    [Replace page] Frame15: Page 54 -> Page 37
+(LA) 38697 -> (PA) 16169: 0
+[Page Table] (LA) 59188 -> (PA) 14132: 0
+    [Replace page] Frame8: Page 58 -> Page 24
+(LA) 24593 -> (PA) 8209: 0
+    [Replace page] Frame6: Page 20 -> Page 56
+(LA) 57641 -> (PA) 6441: 0
+    [Replace page] Frame3: Page 0 -> Page 35
+(LA) 36524 -> (PA) 3756: 0
+    [Replace page] Frame0: Page 1 -> Page 55
+(LA) 56980 -> (PA) 660: 0
+[Page Table] (LA) 36810 -> (PA) 4042: 35
+    [Replace page] Frame4: Page 19 -> Page 5
+(LA) 6096 -> (PA) 5072: 0
+    [Replace page] Frame9: Page 18 -> Page 10
+(LA) 11070 -> (PA) 10046: 10
+    [Replace page] Frame5: Page 40 -> Page 58
+(LA) 60124 -> (PA) 5852: 0
+    [Replace page] Frame12: Page 15 -> Page 36
+(LA) 37576 -> (PA) 13000: 0
+    [Replace page] Frame10: Page 21 -> Page 14
+(LA) 15096 -> (PA) 11000: 0
+[Page Table] (LA) 45247 -> (PA) 2239: 47
+    [Replace page] Frame7: Page 13 -> Page 32
+(LA) 32783 -> (PA) 7183: 3
+[Page Table] (LA) 58390 -> (PA) 13334: 57
+    [Replace page] Frame11: Page 47 -> Page 59
+(LA) 60873 -> (PA) 11721: 0
+    [Replace page] Frame1: Page 63 -> Page 23
+(LA) 23719 -> (PA) 1191: 41
+[Page Table] (LA) 24385 -> (PA) 1857: 0
+    [Replace page] Frame14: Page 61 -> Page 21
+(LA) 22307 -> (PA) 15139: 200
+    [Replace page] Frame15: Page 37 -> Page 16
+(LA) 17375 -> (PA) 16351: 247
+    [Replace page] Frame8: Page 24 -> Page 15
+(LA) 15990 -> (PA) 8822: 15
+    [Replace page] Frame6: Page 56 -> Page 20
+(LA) 20526 -> (PA) 6190: 20
+    [Replace page] Frame0: Page 55 -> Page 25
+(LA) 25904 -> (PA) 304: 0
+    [Replace page] Frame3: Page 35 -> Page 41
+(LA) 42224 -> (PA) 3312: 0
+    [Replace page] Frame4: Page 5 -> Page 9
+(LA) 9311 -> (PA) 4191: 23
+    [Replace page] Frame9: Page 10 -> Page 7
+(LA) 7862 -> (PA) 9910: 7
+    [Replace page] Frame5: Page 58 -> Page 3
+(LA) 3835 -> (PA) 5883: 190
+    [Replace page] Frame12: Page 36 -> Page 29
+(LA) 30535 -> (PA) 13127: 209
+    [Replace page] Frame10: Page 14 -> Page 63
+(LA) 65179 -> (PA) 10907: 166
+    [Replace page] Frame2: Page 44 -> Page 56
+(LA) 57387 -> (PA) 2091: 10
+    [Replace page] Frame7: Page 32 -> Page 62
+(LA) 63579 -> (PA) 7259: 22
+    [Replace page] Frame13: Page 57 -> Page 4
+(LA) 4946 -> (PA) 14162: 4
+    [Replace page] Frame11: Page 59 -> Page 8
+(LA) 9037 -> (PA) 12109: 0
+    [Replace page] Frame1: Page 23 -> Page 59
+(LA) 61033 -> (PA) 1641: 0
+    [Replace page] Frame14: Page 21 -> Page 54
+(LA) 55543 -> (PA) 14583: 61
+    [Replace page] Frame15: Page 16 -> Page 49
+(LA) 50361 -> (PA) 15545: 0
+    [Replace page] Frame8: Page 15 -> Page 6
+(LA) 6480 -> (PA) 8528: 0
+    [Replace page] Frame6: Page 20 -> Page 13
+(LA) 14042 -> (PA) 6874: 13
+    [Replace page] Frame0: Page 25 -> Page 21
+(LA) 21531 -> (PA) 27: 6
+    [Replace page] Frame3: Page 41 -> Page 38
+(LA) 39195 -> (PA) 3355: 70
+    [Replace page] Frame4: Page 9 -> Page 36
+(LA) 37511 -> (PA) 4743: 161
+    [Replace page] Frame9: Page 7 -> Page 23
+(LA) 23696 -> (PA) 9360: 0
+    [Replace page] Frame5: Page 3 -> Page 26
+(LA) 27440 -> (PA) 5936: 0
+    [Replace page] Frame12: Page 29 -> Page 27
+(LA) 28201 -> (PA) 12841: 0
+    [Replace page] Frame10: Page 63 -> Page 22
+(LA) 23072 -> (PA) 10784: 0
+    [Replace page] Frame2: Page 56 -> Page 7
+(LA) 7814 -> (PA) 2694: 7
+[Page Table] (LA) 6552 -> (PA) 8600: 0
+    [Replace page] Frame7: Page 62 -> Page 42
+(LA) 43637 -> (PA) 7797: 0
+    [Replace page] Frame13: Page 4 -> Page 34
+(LA) 35113 -> (PA) 13609: 0
+[Page Table] (LA) 34890 -> (PA) 13386: 34
+[Page Table] (LA) 61297 -> (PA) 1905: 0
+    [Replace page] Frame11: Page 8 -> Page 44
+(LA) 45633 -> (PA) 11841: 0
+[Page Table] (LA) 61431 -> (PA) 2039: 253
+[Page Table] (LA) 46032 -> (PA) 12240: 0
+    [Replace page] Frame14: Page 54 -> Page 18
+(LA) 18774 -> (PA) 14678: 18
+    [Replace page] Frame15: Page 49 -> Page 61
+(LA) 62991 -> (PA) 15887: 131
+[Page Table] (LA) 28059 -> (PA) 12699: 102
+[Page Table] (LA) 35229 -> (PA) 13725: 0
+    [Replace page] Frame6: Page 13 -> Page 50
+(LA) 51230 -> (PA) 6174: 50
+    [Replace page] Frame0: Page 21 -> Page 14
+(LA) 14405 -> (PA) 69: 0
+    [Replace page] Frame3: Page 38 -> Page 51
+(LA) 52242 -> (PA) 3090: 51
+[Page Table] (LA) 43153 -> (PA) 7313: 0
+    [Replace page] Frame4: Page 36 -> Page 2
+(LA) 2709 -> (PA) 4757: 0
+    [Replace page] Frame9: Page 23 -> Page 46
+(LA) 47963 -> (PA) 10075: 214
+    [Replace page] Frame5: Page 26 -> Page 36
+(LA) 36943 -> (PA) 5199: 19
+    [Replace page] Frame10: Page 22 -> Page 52
+(LA) 54066 -> (PA) 11058: 52
+    [Replace page] Frame2: Page 7 -> Page 9
+(LA) 10054 -> (PA) 2886: 9
+[Page Table] (LA) 43051 -> (PA) 7211: 10
+    [Replace page] Frame8: Page 6 -> Page 11
+(LA) 11525 -> (PA) 8453: 0
+    [Replace page] Frame1: Page 59 -> Page 17
+(LA) 17684 -> (PA) 1300: 0
+    [Replace page] Frame11: Page 44 -> Page 40
+(LA) 41681 -> (PA) 11985: 0
+[Page Table] (LA) 27883 -> (PA) 12523: 58
+    [Replace page] Frame14: Page 18 -> Page 55
+(LA) 56909 -> (PA) 14925: 0
+    [Replace page] Frame15: Page 61 -> Page 44
+(LA) 45772 -> (PA) 16076: 0
+    [Replace page] Frame13: Page 34 -> Page 26
+(LA) 27496 -> (PA) 14184: 0
+    [Replace page] Frame6: Page 50 -> Page 45
+(LA) 46842 -> (PA) 6906: 45
+    [Replace page] Frame0: Page 14 -> Page 37
+(LA) 38734 -> (PA) 846: 37
+    [Replace page] Frame3: Page 51 -> Page 28
+(LA) 28972 -> (PA) 3372: 0
+    [Replace page] Frame4: Page 2 -> Page 58
+(LA) 59684 -> (PA) 4388: 0
+[Page Table] (LA) 11384 -> (PA) 8312: 0
+    [Replace page] Frame9: Page 46 -> Page 20
+(LA) 21018 -> (PA) 9754: 20
+    [Replace page] Frame5: Page 36 -> Page 2
+(LA) 2192 -> (PA) 5264: 0
+[Page Table] (LA) 18384 -> (PA) 2000: 0
+    [Replace page] Frame10: Page 52 -> Page 13
+(LA) 13464 -> (PA) 10392: 0
+    [Replace page] Frame2: Page 9 -> Page 30
+(LA) 31018 -> (PA) 2346: 30
+    [Replace page] Frame7: Page 42 -> Page 61
+(LA) 62958 -> (PA) 7662: 61
+    [Replace page] Frame11: Page 40 -> Page 29
+(LA) 30611 -> (PA) 12179: 228
+    [Replace page] Frame12: Page 27 -> Page 1
+(LA) 1913 -> (PA) 13177: 0
+    [Replace page] Frame14: Page 55 -> Page 18
+(LA) 18904 -> (PA) 14808: 0
+[Page Table] (LA) 26773 -> (PA) 13461: 0
+    [Replace page] Frame15: Page 44 -> Page 54
+(LA) 55491 -> (PA) 15555: 48
+    [Replace page] Frame6: Page 45 -> Page 21
+(LA) 21899 -> (PA) 6539: 98
+    [Replace page] Frame0: Page 37 -> Page 62
+(LA) 64413 -> (PA) 925: 0
+    [Replace page] Frame3: Page 28 -> Page 46
+(LA) 47134 -> (PA) 3102: 46
+    [Replace page] Frame4: Page 58 -> Page 22
+(LA) 23172 -> (PA) 4740: 0
+    [Replace page] Frame8: Page 11 -> Page 7
+(LA) 7262 -> (PA) 8286: 7
+    [Replace page] Frame9: Page 20 -> Page 12
+(LA) 12705 -> (PA) 9633: 0
+[Page Table] (LA) 7522 -> (PA) 8546: 7
+    [Replace page] Frame5: Page 2 -> Page 57
+(LA) 58815 -> (PA) 5567: 111
+    [Replace page] Frame1: Page 17 -> Page 34
+(LA) 34916 -> (PA) 1124: 0
+    [Replace page] Frame10: Page 13 -> Page 3
+(LA) 3802 -> (PA) 10970: 3
+    [Replace page] Frame2: Page 30 -> Page 56
+(LA) 58008 -> (PA) 2712: 0
+[Page Table] (LA) 1239 -> (PA) 12503: 53
+[Page Table] (LA) 63947 -> (PA) 459: 114
+    [Replace page] Frame7: Page 61 -> Page 0
+(LA) 381 -> (PA) 7549: 0
+    [Replace page] Frame11: Page 29 -> Page 59
+(LA) 60734 -> (PA) 11582: 59
+    [Replace page] Frame14: Page 18 -> Page 47
+(LA) 48769 -> (PA) 14977: 0
+    [Replace page] Frame13: Page 26 -> Page 40
+(LA) 41938 -> (PA) 14290: 40
+    [Replace page] Frame15: Page 54 -> Page 37
+(LA) 38025 -> (PA) 15497: 0
+    [Replace page] Frame6: Page 21 -> Page 53
+(LA) 55099 -> (PA) 6971: 206
+    [Replace page] Frame3: Page 46 -> Page 55
+(LA) 56691 -> (PA) 3443: 92
+    [Replace page] Frame4: Page 22 -> Page 38
+(LA) 39530 -> (PA) 4714: 38
+[Page Table] (LA) 59003 -> (PA) 5755: 158
+    [Replace page] Frame9: Page 12 -> Page 5
+(LA) 6029 -> (PA) 10125: 0
+    [Replace page] Frame8: Page 7 -> Page 20
+(LA) 20920 -> (PA) 8632: 0
+    [Replace page] Frame1: Page 34 -> Page 7
+(LA) 8077 -> (PA) 1933: 0
+    [Replace page] Frame10: Page 3 -> Page 41
+(LA) 42633 -> (PA) 10889: 0
+    [Replace page] Frame2: Page 56 -> Page 17
+(LA) 17443 -> (PA) 2083: 8
+    [Replace page] Frame12: Page 1 -> Page 52
+(LA) 53570 -> (PA) 12610: 52
+    [Replace page] Frame0: Page 62 -> Page 22
+(LA) 22833 -> (PA) 305: 0
+    [Replace page] Frame7: Page 0 -> Page 3
+(LA) 3782 -> (PA) 7878: 3
+    [Replace page] Frame11: Page 59 -> Page 46
+(LA) 47758 -> (PA) 11918: 46
+    [Replace page] Frame14: Page 47 -> Page 21
+(LA) 22136 -> (PA) 14968: 0
+[Page Table] (LA) 22427 -> (PA) 15259: 230
+    [Replace page] Frame13: Page 40 -> Page 23
+(LA) 23867 -> (PA) 13627: 78
+    [Replace page] Frame15: Page 37 -> Page 58
+(LA) 59968 -> (PA) 15936: 0
+    [Replace page] Frame6: Page 53 -> Page 60
+(LA) 62166 -> (PA) 6870: 60
+    [Replace page] Frame3: Page 55 -> Page 6
+(LA) 6972 -> (PA) 3900: 0
+    [Replace page] Frame4: Page 38 -> Page 62
+(LA) 63684 -> (PA) 4292: 0
+    [Replace page] Frame5: Page 57 -> Page 45
+(LA) 46388 -> (PA) 5428: 0
+    [Replace page] Frame9: Page 5 -> Page 40
+(LA) 41942 -> (PA) 10198: 40
+    [Replace page] Frame8: Page 20 -> Page 35
+(LA) 36524 -> (PA) 8876: 0
+    [Replace page] Frame1: Page 7 -> Page 9
+(LA) 9323 -> (PA) 1131: 26
+    [Replace page] Frame10: Page 41 -> Page 30
+(LA) 31114 -> (PA) 10634: 30
+[Page Table] (LA) 22345 -> (PA) 15177: 0
+[Page Table] (LA) 46463 -> (PA) 5503: 95
+    [Replace page] Frame2: Page 17 -> Page 53
+(LA) 54671 -> (PA) 2447: 99
+    [Replace page] Frame12: Page 52 -> Page 8
+(LA) 9214 -> (PA) 13310: 8
+    [Replace page] Frame0: Page 22 -> Page 7
+(LA) 7257 -> (PA) 89: 0
+    [Replace page] Frame7: Page 3 -> Page 32
+(LA) 33150 -> (PA) 7550: 32
+[Page Table] (LA) 41565 -> (PA) 9821: 0
+    [Replace page] Frame11: Page 46 -> Page 25
+(LA) 26214 -> (PA) 11878: 25
+    [Replace page] Frame13: Page 23 -> Page 3
+(LA) 3595 -> (PA) 13835: 130
+    [Replace page] Frame15: Page 58 -> Page 17
+(LA) 17932 -> (PA) 15884: 0
+    [Replace page] Frame6: Page 60 -> Page 33
+(LA) 34660 -> (PA) 7012: 0
+    [Replace page] Frame3: Page 6 -> Page 50
+(LA) 51961 -> (PA) 3833: 0
+    [Replace page] Frame4: Page 62 -> Page 57
+(LA) 58634 -> (PA) 4362: 57
+    [Replace page] Frame8: Page 35 -> Page 56
+(LA) 57990 -> (PA) 8838: 56
+    [Replace page] Frame1: Page 9 -> Page 28
+(LA) 28848 -> (PA) 1200: 0
+    [Replace page] Frame10: Page 30 -> Page 48
+(LA) 49920 -> (PA) 11008: 0
+[Page Table] (LA) 18351 -> (PA) 16303: 235
+    [Replace page] Frame14: Page 21 -> Page 52
+(LA) 53669 -> (PA) 14757: 0
+[Page Table] (LA) 33996 -> (PA) 6348: 0
+    [Replace page] Frame5: Page 45 -> Page 6
+(LA) 6741 -> (PA) 5717: 0
+    [Replace page] Frame2: Page 53 -> Page 62
+(LA) 64098 -> (PA) 2658: 62
+    [Replace page] Frame12: Page 8 -> Page 0
+(LA) 606 -> (PA) 12894: 0
+    [Replace page] Frame0: Page 7 -> Page 26
+(LA) 27383 -> (PA) 759: 189
+    [Replace page] Frame7: Page 32 -> Page 61
+(LA) 63140 -> (PA) 7844: 0
+    [Replace page] Frame9: Page 40 -> Page 31
+(LA) 32228 -> (PA) 9700: 0
+[Page Table] (LA) 63437 -> (PA) 8141: 0
+[Page Table] (LA) 29085 -> (PA) 1437: 0
+    [Replace page] Frame11: Page 25 -> Page 63
+(LA) 65080 -> (PA) 11832: 0
+    [Replace page] Frame13: Page 3 -> Page 37
+(LA) 38753 -> (PA) 14177: 0
+    [Replace page] Frame3: Page 50 -> Page 15
+(LA) 16041 -> (PA) 3753: 0
+    [Replace page] Frame4: Page 57 -> Page 8
+(LA) 9041 -> (PA) 4945: 0
+    [Replace page] Frame8: Page 56 -> Page 41
+(LA) 42090 -> (PA) 8298: 41
+    [Replace page] Frame10: Page 48 -> Page 45
+(LA) 46388 -> (PA) 10548: 0
+[Page Table] (LA) 63650 -> (PA) 2210: 62
+    [Replace page] Frame15: Page 17 -> Page 35
+(LA) 36636 -> (PA) 16156: 0
+    [Replace page] Frame14: Page 52 -> Page 21
+(LA) 21947 -> (PA) 14779: 110
+    [Replace page] Frame6: Page 33 -> Page 19
+(LA) 19833 -> (PA) 6521: 0
+[Page Table] (LA) 36464 -> (PA) 15984: 0
+[Page Table] (LA) 8541 -> (PA) 4445: 0
+    [Replace page] Frame5: Page 6 -> Page 12
+(LA) 12712 -> (PA) 5544: 0
+    [Replace page] Frame12: Page 0 -> Page 47
+(LA) 48955 -> (PA) 13115: 206
+    [Replace page] Frame0: Page 26 -> Page 38
+(LA) 39206 -> (PA) 294: 38
+[Page Table] (LA) 15578 -> (PA) 3290: 15
+    [Replace page] Frame9: Page 31 -> Page 48
+(LA) 49205 -> (PA) 9269: 0
+    [Replace page] Frame7: Page 61 -> Page 7
+(LA) 7731 -> (PA) 7731: 140
+    [Replace page] Frame1: Page 28 -> Page 42
+(LA) 43046 -> (PA) 1062: 42
+    [Replace page] Frame11: Page 63 -> Page 59
+(LA) 60498 -> (PA) 11346: 59
+    [Replace page] Frame13: Page 37 -> Page 9
+(LA) 9237 -> (PA) 13333: 0
+    [Replace page] Frame8: Page 41 -> Page 46
+(LA) 47706 -> (PA) 8794: 46
+[Page Table] (LA) 43973 -> (PA) 1989: 0
+    [Replace page] Frame10: Page 45 -> Page 41
+(LA) 42008 -> (PA) 10264: 0
+    [Replace page] Frame2: Page 62 -> Page 26
+(LA) 27460 -> (PA) 2884: 0
+    [Replace page] Frame14: Page 21 -> Page 24
+(LA) 24999 -> (PA) 14759: 105
+    [Replace page] Frame6: Page 19 -> Page 50
+(LA) 51933 -> (PA) 6877: 0
+    [Replace page] Frame15: Page 35 -> Page 33
+(LA) 34070 -> (PA) 15638: 33
+    [Replace page] Frame4: Page 8 -> Page 63
+(LA) 65155 -> (PA) 4739: 160
+    [Replace page] Frame5: Page 12 -> Page 58
+(LA) 59955 -> (PA) 5683: 140
+[Page Table] (LA) 9277 -> (PA) 13373: 0
+    [Replace page] Frame12: Page 47 -> Page 19
+(LA) 20420 -> (PA) 13252: 0
+    [Replace page] Frame0: Page 38 -> Page 43
+(LA) 44860 -> (PA) 828: 0
+    [Replace page] Frame3: Page 15 -> Page 49
+(LA) 50992 -> (PA) 3888: 0
+    [Replace page] Frame9: Page 48 -> Page 10
+(LA) 10583 -> (PA) 9559: 85
+    [Replace page] Frame7: Page 7 -> Page 56
+(LA) 57751 -> (PA) 7575: 101
+    [Replace page] Frame11: Page 59 -> Page 22
+(LA) 23195 -> (PA) 11931: 166
+[Page Table] (LA) 27227 -> (PA) 2651: 150
+[Page Table] (LA) 42816 -> (PA) 11072: 0
+[Page Table] (LA) 58219 -> (PA) 8043: 218
+    [Replace page] Frame8: Page 46 -> Page 36
+(LA) 37606 -> (PA) 8934: 36
+    [Replace page] Frame1: Page 42 -> Page 17
+(LA) 18426 -> (PA) 2042: 17
+    [Replace page] Frame14: Page 24 -> Page 20
+(LA) 21238 -> (PA) 15094: 20
+    [Replace page] Frame6: Page 50 -> Page 11
+(LA) 11983 -> (PA) 6863: 179
+    [Replace page] Frame15: Page 33 -> Page 47
+(LA) 48394 -> (PA) 15626: 47
+[Page Table] (LA) 11036 -> (PA) 10012: 0
+    [Replace page] Frame4: Page 63 -> Page 29
+(LA) 30557 -> (PA) 4957: 0
+[Page Table] (LA) 23453 -> (PA) 12189: 0
+    [Replace page] Frame5: Page 58 -> Page 48
+(LA) 49847 -> (PA) 5815: 173
+[Page Table] (LA) 30032 -> (PA) 4432: 0
+    [Replace page] Frame13: Page 9 -> Page 46
+(LA) 48065 -> (PA) 14273: 0
+    [Replace page] Frame12: Page 19 -> Page 6
+(LA) 6957 -> (PA) 13101: 0
+    [Replace page] Frame0: Page 43 -> Page 2
+(LA) 2301 -> (PA) 253: 0
+    [Replace page] Frame3: Page 49 -> Page 7
+(LA) 7736 -> (PA) 3640: 0
+    [Replace page] Frame2: Page 26 -> Page 30
+(LA) 31260 -> (PA) 2588: 0
+    [Replace page] Frame10: Page 41 -> Page 16
+(LA) 17071 -> (PA) 10927: 171
+    [Replace page] Frame7: Page 56 -> Page 8
+(LA) 8940 -> (PA) 7916: 0
+    [Replace page] Frame8: Page 36 -> Page 9
+(LA) 9929 -> (PA) 8905: 0
+    [Replace page] Frame1: Page 17 -> Page 44
+(LA) 45563 -> (PA) 1531: 126
+[Page Table] (LA) 12107 -> (PA) 6987: 210
