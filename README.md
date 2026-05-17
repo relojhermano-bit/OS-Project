@@ -14,7 +14,6 @@ The program reads logical addresses from `addresses.txt`, translates them into p
 - `Makefile` - Build file
 - `output.txt` - Program output
 - `stat.txt` - Statistics output
-- `PROJECT_REPORT.md` - Project report
 
 ## Build
 
