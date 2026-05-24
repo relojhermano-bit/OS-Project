@@ -13,13 +13,28 @@ int main() {
     unsigned short logicalAddress;
     long accessCounter = 0;
     int pageFaultCount = 0;
+    int pageNo;
+    int offset;
+    int frameNo;
+    int physicalAddr;
+    int freeFrame;
+    int victimFrame;
+    int oldPage;
+    int readStatus;
+    unsigned char data;
+    int ch;
     int i;
 
     /* Get and validate user inputs */
     while (!getValidInput(&frameBits, &frameCount)) {
         fprintf(stderr, "Please try again.\n");
         /* Clear input buffer */
-        while (getchar() != '\n');
+        do {
+            ch = getchar();
+        } while (ch != '\n' && ch != EOF);
+        if (ch == EOF) {
+            return 1;
+        }
     }
 
     /* Derive system parameters */
@@ -79,22 +94,17 @@ int main() {
     }
 
     /* Process each logical address */
-    while (1) {
-        logicalAddress = readLogicalAddress(addressFile);
-        if (feof(addressFile)) {
-            break;
-        }
-
+    while ((readStatus = readLogicalAddress(addressFile, &logicalAddress)) == READ_ADDRESS_OK) {
         accessCounter++;
-        int pageNo = getPageNo(logicalAddress, frameBits);
-        int offset = getOffset(logicalAddress, frameBits);
+        pageNo = getPageNo(logicalAddress, frameBits);
+        offset = getOffset(logicalAddress, frameBits);
 
         /* Check if page table entry is valid (page hit) */
         if (pageTable[pageNo].valid) {
             /* Page table hit */
-            int frameNo = pageTable[pageNo].frameNo;
-            int physicalAddr = frameNo * pageSize + offset;
-            unsigned char data = memory[physicalAddr];
+            frameNo = pageTable[pageNo].frameNo;
+            physicalAddr = frameNo * pageSize + offset;
+            data = memory[physicalAddr];
 
             /* Update LRU timestamp */
             pageTable[pageNo].lastUsed = accessCounter;
@@ -107,14 +117,22 @@ int main() {
             /* Page fault */
             pageFaultCount++;
 
-            int freeFrame = findFreeFrame(frameToPage, frameCount);
+            freeFrame = findFreeFrame(frameToPage, frameCount);
 
             if (freeFrame != -1) {
                 /* Free frame exists: allocate from low to high */
-                int frameNo = freeFrame;
+                frameNo = freeFrame;
 
                 /* Load page from backing store */
-                loadPage(backingStore, memory, pageNo, frameNo, pageSize);
+                if (!loadPage(backingStore, memory, pageNo, frameNo, pageSize)) {
+                    fclose(addressFile);
+                    fclose(backingStore);
+                    free(pageTable);
+                    free(memory);
+                    free(frameToPage);
+                    free(frameLastUsed);
+                    return 1;
+                }
 
                 /* Update page table */
                 pageTable[pageNo].valid = 1;
@@ -129,8 +147,8 @@ int main() {
                 printf("    [Load Page] Page %d -> Frame%d\n", pageNo, frameNo);
             } else {
                 /* No free frame: use LRU replacement */
-                int victimFrame = findLRUFrame(frameLastUsed, frameCount);
-                int oldPage = frameToPage[victimFrame];
+                victimFrame = findLRUFrame(frameLastUsed, frameCount);
+                oldPage = frameToPage[victimFrame];
 
                 /* Invalidate old page table entry */
                 pageTable[oldPage].valid = 0;
@@ -138,7 +156,15 @@ int main() {
                 pageTable[oldPage].lastUsed = -1;
 
                 /* Load new page into victim frame */
-                loadPage(backingStore, memory, pageNo, victimFrame, pageSize);
+                if (!loadPage(backingStore, memory, pageNo, victimFrame, pageSize)) {
+                    fclose(addressFile);
+                    fclose(backingStore);
+                    free(pageTable);
+                    free(memory);
+                    free(frameToPage);
+                    free(frameLastUsed);
+                    return 1;
+                }
 
                 /* Update page table for new page */
                 pageTable[pageNo].valid = 1;
@@ -155,14 +181,25 @@ int main() {
             }
 
             /* After page fault handled, compute physical address and output translation */
-            int frameNo = pageTable[pageNo].frameNo;
-            int physicalAddr = frameNo * pageSize + offset;
-            unsigned char data = memory[physicalAddr];
+            frameNo = pageTable[pageNo].frameNo;
+            physicalAddr = frameNo * pageSize + offset;
+            data = memory[physicalAddr];
 
             /* Output: normal translation line */
             printf("(LA) %d -> (PA) %d: %d\n",
                    (int)logicalAddress, physicalAddr, (int)data);
         }
+    }
+
+    if (readStatus == READ_ADDRESS_INVALID) {
+        fprintf(stderr, "Error: Invalid logical address in addresses.txt\n");
+        fclose(addressFile);
+        fclose(backingStore);
+        free(pageTable);
+        free(memory);
+        free(frameToPage);
+        free(frameLastUsed);
+        return 1;
     }
 
     /* Close files */

@@ -1,0 +1,6 @@
+*.o
+vm_manager
+my_output.txt
+invalid_then_valid_output.txt
+invalid_equal_mem_output.txt
+__MACOSX/

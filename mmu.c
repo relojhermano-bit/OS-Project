@@ -1,12 +1,15 @@
 #include "mmu.h"
 
 /* Check if x is a power of 2 */
-int isPowerOfTwo(int x) {
+int isPowerOfTwo(long x) {
     return x > 0 && (x & (x - 1)) == 0;
 }
 
 /* Get and validate user inputs for frame size bits and frame count */
 int getValidInput(int *frameBits, int *frameCount) {
+    int pageSize;
+    long physicalMemorySize;
+
     fprintf(stderr, "Enter frame size bits (n): ");
     if (scanf("%d", frameBits) != 1) {
         fprintf(stderr, "Warning: Invalid input for frame size bits.\n");
@@ -25,25 +28,25 @@ int getValidInput(int *frameBits, int *frameCount) {
         return 0;
     }
 
-    int pageSize = 1 << *frameBits;
-    int physicalMemorySize = *frameCount * pageSize;
-
     /* Validate frame count is positive */
     if (*frameCount < 1) {
         fprintf(stderr, "Warning: Frame count must be positive.\n");
         return 0;
     }
 
+    pageSize = 1 << *frameBits;
+    physicalMemorySize = (long)(*frameCount) * pageSize;
+
     /* Validate physical memory size is smaller than logical space */
     if (physicalMemorySize >= LOGICAL_SPACE_SIZE) {
-        fprintf(stderr, "Warning: Physical memory size (%d bytes) must be smaller than logical address space (65536 bytes).\n",
+        fprintf(stderr, "Warning: Physical memory size (%ld bytes) must be smaller than logical address space (65536 bytes).\n",
                 physicalMemorySize);
         return 0;
     }
 
     /* Validate physical memory size is power of 2 */
     if (!isPowerOfTwo(physicalMemorySize)) {
-        fprintf(stderr, "Warning: Total physical memory size (%d bytes) must be a power of 2.\n",
+        fprintf(stderr, "Warning: Total physical memory size (%ld bytes) must be a power of 2.\n",
                 physicalMemorySize);
         return 0;
     }
@@ -63,12 +66,23 @@ int getOffset(unsigned short logicalAddress, int frameBits) {
 }
 
 /* Read next logical address from input file */
-unsigned short readLogicalAddress(FILE *fp) {
+int readLogicalAddress(FILE *fp, unsigned short *logicalAddress) {
     int addr;
-    if (fscanf(fp, "%d", &addr) == 1) {
-        return (unsigned short)addr;
+    int result = fscanf(fp, "%d", &addr);
+
+    if (result == 1) {
+        if (addr < 0 || addr >= LOGICAL_SPACE_SIZE) {
+            return READ_ADDRESS_INVALID;
+        }
+        *logicalAddress = (unsigned short)addr;
+        return READ_ADDRESS_OK;
     }
-    return (unsigned short)-1; /* EOF marker */
+
+    if (result == EOF) {
+        return READ_ADDRESS_EOF;
+    }
+
+    return READ_ADDRESS_INVALID;
 }
 
 /* Find the lowest-index free frame */
@@ -103,36 +117,45 @@ int findLRUFrame(long *frameLastUsed, int frameCount) {
 }
 
 /* Load a page from backing store into memory */
-void loadPage(FILE *backingStore, unsigned char *memory, 
-              int pageNo, int frameNo, int pageSize) {
+int loadPage(FILE *backingStore, unsigned char *memory,
+             int pageNo, int frameNo, int pageSize) {
     int offset = pageNo * pageSize;
     size_t bytesRead;
     
-    fseek(backingStore, offset, SEEK_SET);
+    if (fseek(backingStore, offset, SEEK_SET) != 0) {
+        fprintf(stderr, "Error: Could not seek to page %d in backingstore.bin.\n", pageNo);
+        return 0;
+    }
+
     bytesRead = fread(memory + frameNo * pageSize, sizeof(unsigned char), pageSize, backingStore);
     
     if ((int)bytesRead != pageSize) {
-        fprintf(stderr, "Warning: Read %zu bytes, expected %d bytes for page %d.\n",
-                bytesRead, pageSize, pageNo);
+        fprintf(stderr, "Warning: Read %lu bytes, expected %d bytes for page %d.\n",
+                (unsigned long)bytesRead, pageSize, pageNo);
+        return 0;
     }
+
+    return 1;
 }
 
 /* Write stat.txt with page-fault rate and memory image */
 void writeStat(int *frameToPage, int pageFaultCount, 
               int totalAddressCount, int frameCount) {
     FILE *fp = fopen("stat.txt", "w");
+    double faultRate;
+    int i;
+
     if (fp == NULL) {
         fprintf(stderr, "Error: Could not create stat.txt\n");
         return;
     }
 
     /* Calculate page-fault rate as decimal ratio */
-    double faultRate = (totalAddressCount > 0) ? (double)pageFaultCount / totalAddressCount : 0.0;
+    faultRate = (totalAddressCount > 0) ? (double)pageFaultCount / totalAddressCount : 0.0;
     fprintf(fp, "page-fault rate: %.6f\n", faultRate);
     fprintf(fp, "Memory image:\n");
 
     /* Print memory image: 16 frames per row */
-    int i;
     for (i = 0; i < frameCount; i++) {
         if (i % 16 == 0) {
             if (i > 0) {

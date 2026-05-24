@@ -14,6 +14,8 @@ The program reads logical addresses from `addresses.txt`, translates them into p
 - `Makefile` - Build file
 - `output.txt` - Program output
 - `stat.txt` - Statistics output
+- `PROJECT_REPORT.md` - Project report
+- `IMPROVEMENTS.md` - Final improvement and verification notes
 
 ## Build
 
@@ -23,18 +25,20 @@ make
 
 ## Run
 
+Run the program from the project directory so it can find `addresses.txt` and
+`backingstore.bin`.
+
 ```bash
 ./vm_manager > output.txt
 ```
 
-Enter the frame size bits and the number of frames when prompted.
+The program asks for the frame size bits and the total frame count. For example:
 
-Example:
-
-```text
-10
-32
+```bash
+printf "10\n32\n" | ./vm_manager > output.txt
 ```
+
+The run also generates `stat.txt`.
 
 ## Clean
 
